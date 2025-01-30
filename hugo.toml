@@ -1,0 +1,19 @@
+baseURL = 'https://m426.frickelbude.ch'
+languageCode = 'de-ch'
+title = 'Modul 426'
+
+[module]
+[[module.imports]]
+path = 'github.com/McShelby/hugo-theme-relearn'
+
+[minify]
+minifyOutput = true
+
+[params]
+math = false
+openapi = false
+showVisitedLinks = true
+themeVariant = 'blue'
+
+[params.author]
+name = 'Patrick Bucher'
