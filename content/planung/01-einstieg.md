@@ -9,6 +9,8 @@ Vorgehensmeethode beworben und verkauft werden soll, wollen wir gewisse
 Verhaltensmuster ‒ den _Cargo Cult_ ‒ kritisch betrachten, damit wir diese
 Fehler nicht wiederholen.
 
+Zur Ergebnissicherung für der Lehrer Bucher heute das Protokoll!
+
 ## Ziel
 
 Sie kennen den Ursprung des Begriffs _agile_ und verstehen, was ein _Cargo Cult_
