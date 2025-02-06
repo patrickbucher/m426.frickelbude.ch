@@ -1,5 +1,5 @@
 +++
-title = "Block 1: Git-Grundlagen"
+title = "Block 2: Git-Grundlagen"
 weight = 2
 +++
 
@@ -14,16 +14,15 @@ wie Git diese besonders effektiv löst.
 
 ## Ablauf
 
-### Lektion 1
+### Lektionen 1 & 2
 
 - [30 min.] Lektüre und Besprechung zum Thema _Versionskontrolle_
-- TODO
-
-### Lektion 2
-
 - [30 min.] Grundlagen von Git
-- TODO
+- [30 min.] Selbständiges Lernen anhand der Lernziele
+    - währenddessen: Unterstützung bei Setup
+    - währenddessen: Einladung zur Modulgruppe auf GitHub
 
 ### Hausaufgaben
 
-TODO
+- Repetieren Sie das Thema und bereiten Sie allfällige Fragen zu den bereits
+  behandelten Lernzielen.
