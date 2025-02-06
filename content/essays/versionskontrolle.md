@@ -1,7 +1,6 @@
 +++
 date = '2025-02-06T10:06:19+01:00'
 title = 'Versionskontrolle'
-draft = true
 +++
 
 Im einem interdisziplinären Projektmodul sollen die Lernenden in Dreiergruppen
