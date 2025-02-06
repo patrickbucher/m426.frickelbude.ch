@@ -79,3 +79,41 @@ Doch Melanie ist selbstsicher und gibt das jetzt einfach mal als Standard vor!
 3. Wo begegnet man sonst noch einem _Cargo Cult_ (Informatik, Alltag)?
 4. Wie erkennt man, ob man selber einem _Cargo Cult_ folgt?
 5. Wie kann man eine Organisation vom _Cargo Cult_ heilen?
+
+{{% expand title="Antworten aus dem Unterricht" %}}
+1. Gibt es Gemeinsamkeiten im Verhalten der Melanesier und von Melanie?
+    - Beide ahmen etwas nach, was sie nicht verstehen.
+    - Beide folgen einer offensichtlich erfolgreichen Autorität.
+    - Ein gewohntes Verhaltensmuster wird durch ein neues, aber nicht
+      funktionierendes ersetzt ‒ und stur durchgesetzt.
+2. Warum folgen Leute einem _Cargo Cult_?
+    - Weil sie den Zusammenhang zwischen einer Ursache und (erwünschten) Wirkung
+      nicht verstehen.
+    - Es ist bequemer, einem Beispiel zu folgen als selber zu denken.
+    - Das Neue wird positiver bewertet als das Alte.
+    - Man möchte sich verbessern, etwas verändern ‒ oder einfach dazugehören.
+    - Man erkennt einen positiven Effekt, den man selber nachahmen möchte.
+3. Wo begegnet man sonst noch einem _Cargo Cult_ (Informatik, Alltag)?
+    - Beim Einsatz von KI, Blockchain und anderer Technologietrends oder Hypes.
+    - Beim Nachahmen anderer Lernender oder Arbeitskollegen.
+    - Beim unkritischen Befolgen von Tutorials.
+    - Bei Glücksspielen wie Lotto, weil man nur die Gewinner sieht.
+    - Beim Sport durch das Übernehmen irrelevanter Handlungsmuster.
+4. Wie erkennt man, ob man selber einem _Cargo Cult_ folgt?
+    - Kann man den Vorteil der neuen Lösung ‒ anderen und sich selber ‒ erklären ?
+    - Kann die Verbesserung anhand objektiver und messbarer Kriterien
+      nachgewiesen werden?
+    - Reagiert man emotional auf kritische Rückfragen?
+    - Welche Rückmeldungen erhält man von anderen?
+5. Wie kann man eine Organisation vom _Cargo Cult_ heilen?
+    - Indem man dafür sorgt, dass Entscheidungen breit abgestützt und nicht
+      durch einen einzelnen "Trendsetter" vorgegeben werden.
+    - Indem man externe Experten dazuholt, gegen die niemand der Belegschaft
+      voreingenommen ist.
+    - Indem man eine transparente, offene Firmen-, Diskussions- und Fehlerkultur
+      fördert.
+    - Indem man sich untereinander austauscht, nach einem Konsens sucht und
+      gemeinsam (gegen solche Kulte) auftritt. 
+    - Indem man mit Fakten argumentiert (Daten zu objektiven/messbaren Kriterien
+      sammeln).
+{{% /expand %}}
