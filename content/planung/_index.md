@@ -10,3 +10,4 @@ weight = 2
 ## Themen- und Wochenblöcke
 
 - [Block 1](01-einstieg/): Einstieg
+- [Block 2](02-git-grundlagen/): Git-Grundlagen
