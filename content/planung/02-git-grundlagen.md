@@ -18,11 +18,11 @@ wie Git diese besonders effektiv löst.
 
 - [30 min.] Lektüre und Besprechung zum Thema _Versionskontrolle_
 - [30 min.] Grundlagen von Git
-- [30 min.] Selbständiges Lernen anhand der Lernziele
+- [30 min.] Selbständiges Lernen anhand der [Lernziele](/lernziele/versionskontrolle/)
     - währenddessen: Unterstützung bei Setup
     - währenddessen: Einladung zur Modulgruppe auf GitHub
 
 ### Hausaufgaben
 
 - Repetieren Sie das Thema und bereiten Sie allfällige Fragen zu den bereits
-  behandelten Lernzielen.
+  behandelten [Lernzielen](/lernziele/versionskontrolle/).
