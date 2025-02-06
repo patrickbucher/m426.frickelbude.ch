@@ -13,7 +13,8 @@ weight = 1
 
 ### Unterlagen
 
-TODO
+- Essay _Versionskontrolle_
+- optional zum Nachlesen: Skript _Versionskontrolle_: Kapitel 1
 
 ## Git: Grundlagen
 
@@ -29,12 +30,11 @@ TODO
    unterscheiden: systemweit, benutzerweit, pro Repository.
 7. Sie wissen, warum man bei Git grundlegende Konfigurationseinstellungen (Name,
    E-Mail-Adresse, Texteditor) vornehmen muss.
-8. Sie können die Befehle zur Anzeige der Git-Hilfe auf der Kommandozeile
-   verwenden.
 
 ### Unterlagen
 
-TODO
+- Folien _Versionskontrolle: Git (Grundlagen)_
+- optional zum Nachlesen: Skript _Versionskontrolle_: Kapitel 2
 
 ## Git: Verwendung
 
@@ -51,13 +51,16 @@ TODO
 4. Sie können erklären, warum man Dateien mit `git rm` löschen sollte.
 5. Sie können erklären, warum man Dateien mit `git mv` umbennen/verschieben
    sollte.
-6. Sie verstehen das Konzept eines Remotes und wissen, wie es im Zusammenhang
+6. Sie können die Befehle zur Anzeige der Git-Hilfe auf der Kommandozeile verwenden.
+7. Sie verstehen das Konzept eines Remotes und wissen, wie es im Zusammenhang
    mit zentralen Repositories verwendet wird.
-7. Sie können Branches erstellen, einen anderen Branch aktivieren, Änderungen
+8. Sie können Branches erstellen, einen anderen Branch aktivieren, Änderungen
    zwischen Branches vergleichen und Branches zusammenführen.
-8. Sie können Anwendungsfälle für Branches benennen und erklären.
-9. Sie können den Workflow _Fork/Pull Request_ erklären.
+9. Sie können Anwendungsfälle für Branches benennen und erklären.
+10. Sie können den Workflow _Fork/Pull Request_ erklären.
 
 ### Unterlagen
 
-TODO
+- Folien _Versionskontrolle: Git verwenden (Teil 1)_
+- Folien _Versionskontrolle: Git verwenden (Teil 2)_
+- optional zum Nachlesen: Skript _Versionskontrolle_: Kapitel 3
