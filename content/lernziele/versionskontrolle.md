@@ -18,21 +18,18 @@ TODO
 ## Git: Grundlagen
 
 1. Sie können die Designziele von Git benennen.
-2. Sie können die Unterschiede zwischen Git und traditionellen
-   Versionskontrollsystemen bezüglich deren interner Arbeitsweise
-   nachvollziehen.
-3. Sie können den Aufbau, das Konzept und den Zweck eines _Commit Hashes_
+2. Sie können den Aufbau, das Konzept und den Zweck eines _Commit Hashes_
    erklären.
-4. Sie können den Begriff _Repository_ in Zusammenhang mit Git definieren.
-5. Sie können die drei Bereiche eines Repositories (Arbeitsverzeichnis,
+3. Sie können den Begriff _Repository_ in Zusammenhang mit Git definieren.
+4. Sie können die drei Bereiche eines Repositories (Arbeitsverzeichnis,
    Staging-Bereich und `.git`-Verzeichnis) voneinander unterscheiden.
-6. Sie können die Vorteile des offiziellen Git-Clients für die Kommandozeile
+5. Sie können die Vorteile des offiziellen Git-Clients für die Kommandozeile
    gegenüber GUI-Clients für Git benennen.
-7. Sie können die drei Ebenen, auf denen Git konfiguriert werden kann,
+6. Sie können die drei Ebenen, auf denen Git konfiguriert werden kann,
    unterscheiden: systemweit, benutzerweit, pro Repository.
-8. Sie wissen, warum man bei Git grundlegende Konfigurationseinstellungen (Name,
+7. Sie wissen, warum man bei Git grundlegende Konfigurationseinstellungen (Name,
    E-Mail-Adresse, Texteditor) vornehmen muss.
-9. Sie können die Befehle zur Anzeige der Git-Hilfe auf der Kommandozeile
+8. Sie können die Befehle zur Anzeige der Git-Hilfe auf der Kommandozeile
    verwenden.
 
 ### Unterlagen
@@ -50,7 +47,7 @@ TODO
    sein sollen.
 3. Sie können die Git-Befehle `clone`, `status`, `diff`, `add`, `commit`,
    `push`, `rm`, `mv`, `branch`, `checkout`, `merge`, `reset`, `log`, `tag`
-   richtig verwenden.
+   verwenden.
 4. Sie können erklären, warum man Dateien mit `git rm` löschen sollte.
 5. Sie können erklären, warum man Dateien mit `git mv` umbennen/verschieben
    sollte.
