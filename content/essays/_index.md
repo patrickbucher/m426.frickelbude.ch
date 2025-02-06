@@ -6,3 +6,6 @@ weight = 4
 > Was ich Ihnen sage, ist ein unter der Logik reflektierendes Hochgeistestum.
 > 
 > — Thomas Bernhard, _Frost_
+
+- [Cargo Cult](cargo-cult/)
+- Versionskontrolle
