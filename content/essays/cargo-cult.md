@@ -1,6 +1,7 @@
 +++
 date = '2025-01-30T16:03:27+01:00'
 title = 'Cargo Cult'
+weight = 1
 +++
 
 Im zweiten Weltkrieg benutzten die amerikanischen Streitkräfte die Inseln der
