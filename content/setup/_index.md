@@ -1,6 +1,6 @@
 +++
 title = "Setup"
-weight = 4
+weight = 5
 +++
 
 > Wenn ich ab der zweiten Modulwoche `git: command not found` höre, beantrage

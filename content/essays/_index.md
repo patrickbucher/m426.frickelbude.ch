@@ -1,6 +1,6 @@
 +++
 title = "Essays"
-weight = 3
+weight = 4
 +++
 
 > Was ich Ihnen sage, ist ein unter der Logik reflektierendes Hochgeistestum.
