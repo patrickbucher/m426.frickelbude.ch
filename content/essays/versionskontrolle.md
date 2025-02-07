@@ -4,7 +4,7 @@ title = 'Versionskontrolle'
 weight = 2
 +++
 
-Im einem interdisziplinären Projektmodul sollen die Lernenden in Dreiergruppen
+In einem interdisziplinären Projektmodul sollen die Lernenden in Dreiergruppen
 eine schriftliche Arbeit zu einem selbstgewählten Thema verfassen.
 
 Gruppe 1 (bestehend aus Alois, Beatrice und Clemens) widmet sich dem Thema _Der
