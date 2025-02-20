@@ -11,3 +11,5 @@ weight = 2
 
 - [Block 1](01-einstieg/): Einstieg
 - [Block 2](02-git-grundlagen/): Git-Grundlagen
+- Block 3: Git verwenden (Teil 1); **Arbeitsauftrag**
+- [Block 4](04-git-verwenden-2/): Git verwenden (Teil 2)
