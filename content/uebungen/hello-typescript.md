@@ -228,7 +228,21 @@ die Granularität `0.01` bzw. `0.1` testen. Führe die Testfälle aus.
 
 Füge am Schluss alle Dateien dem Repository hinzu und pushe es auf GitHub.
 
-## Zusatzaufgabe
+## Visual Studio Code
+
+Das beschriebene Setup funktioniert unabhängig von einer Entwicklungsumgebung.
+Wer etwas mehr Komfort haben möchte, kann mit [Visual Studio
+Code](https://code.visualstudio.com/) arbeiten.
+
+Hierzu sind folgende Erweiterungen hilfreich:
+
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+Diese Erweiterungen arbeiten mit den installierten Node-Packages (`prettier`,
+`eslint`) zusammen.
+
+## Zusatzaufgabe: Pythagoräische Tripel
 
 Erstelle eine neue Datei `src/pythagoras.ts` mit einer Funktion `isTriplet`,
 welche drei Parameter `a`, `b` und `c` erwartet. Die Funktion soll `true`
