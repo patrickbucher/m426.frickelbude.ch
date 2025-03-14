@@ -93,9 +93,9 @@ Erstelle eine Datei namens `tsconfig.json` mit folgendem Inhalt:
 ```
 
 Damit wird der TypeScript-Code aus `src/` zu JavaScript-Code nach `dist/`
-kompiliert. Der resultierende Code verwendet den Standard _ECMAScript 2024_ und
-das _CommonJS_-Modulsystem, welches bei Node.js standardmässig zum Einsatz
-kommt.
+kompiliert. Der resultierende Code verwendet den Standard _ECMAScript 2024_
+(benötigt mindestens TypeScript 5.7) und das _CommonJS_-Modulsystem, welches bei
+Node.js standardmässig zum Einsatz kommt.
 
 Erstelle nun eine Datei namens `src/index.ts` mit folgendem Inhalt:
 
