@@ -25,7 +25,7 @@ installiert:
 
 Ansonsten installiere es folgendermassen:
 
-    $ npm install --global tsc
+    $ npm install --global typescript
 
 ## Projekt
 
