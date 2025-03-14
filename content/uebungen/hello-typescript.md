@@ -165,7 +165,7 @@ Beantworte die Fragen folgendermassen:
 
 Führe nun ESLint auf den bestehenden Code aus:
 
-    $ npx eslint src/index.js
+    $ npx eslint src/index.ts
 
 Betrachte dir die gemeldeten Probleme und korrigiere sie, sodass ESLint beim
 nächsten Durchlauf nichts mehr zu beanstanden hat.
