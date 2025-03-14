@@ -177,7 +177,7 @@ Installiere das Test-Framework _Jest_:
 
     $ npm install --save-dev jest ts-jest @types/jest
 
-Dadurch wird Jest mitsamt TypeScript-Unterstütunz und Typannotationen installiert.
+Dadurch wird Jest mitsamt TypeScript-Unterstütung und Typannotationen installiert.
 
 Erstelle eine Datei `jest.config.js` mit folgendem Inhalt:
 
