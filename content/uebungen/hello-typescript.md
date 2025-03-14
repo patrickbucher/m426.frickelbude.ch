@@ -67,6 +67,7 @@ Füge die Datei `package.json` sowie die beiden Verzeichnisse dem Repository hin
 Lege eine Datei namens `.gitignore` mit folgendem Inhalt an:
 
     dist/**/*.js
+    node_modules/
 
 Nimm die Datei ebenfalls ins Repository auf:
 
