@@ -17,6 +17,7 @@ Sie können einfache Unittests mithilfe von Jest erstellen, nachvollziehen und a
 
 ### Lektionen 1 & 2
 
+1. [5 min.] Administratives
 1. [25 min.] Folien zur Einführung
 1. [10 min.] Einstiegsbeispiel [rule-of-three](https://github.com/m426-2025/rule-of-three)
 1. [50 min.] Übung [unittest-typescript](https://github.com/m426-2025/unittest-typescript)
