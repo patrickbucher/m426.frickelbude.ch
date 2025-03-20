@@ -118,7 +118,7 @@ Erstelle eine Datei namens `tsconfig.json` mit folgendem Inhalt:
 Damit wird der TypeScript-Code aus `src/` zu JavaScript-Code nach `dist/`
 kompiliert. Der resultierende Code verwendet den Standard _ECMAScript 2024_
 (benötigt mindestens TypeScript 5.7) und das neueste ECMAScript-Modulsystem
-(`esnext`). Die Einstellugnen `moduleResolution` und `esModuleInterop` sorgen
+(`esnext`). Die Einstellungen `moduleResolution` und `esModuleInterop` sorgen
 dafür, dass Node.js, welches nativ ein anderes Modulsystem verwendet, mit dem
 ECMAScript-Modulsystem im Projekt umgehen kann.
 
