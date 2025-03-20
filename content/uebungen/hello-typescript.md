@@ -6,6 +6,12 @@ title = 'Hello, Typescript!'
 Hier ist beschrieben, wie man ein TypeScript-Projekt mit Kompilierung
 (TypeScript zu JavaScript), Formatierung, Linting und Testing aufsetzt.
 
+> [!NOTE]
+> Die Anleitung wurde angepasst, sodass neu (Stand: 20.03.2025) konsequent das
+> Modulsystem von ECMAScript zum Einsatz kommt und nicht mehr eine Hybrid-Lösung
+> mit CommonJS und ECMAScript-Modulen. Dies betrifft die Dateien `package.json`
+> und `tsconfig.js`.
+
 ## Voraussetzungen
 
 Du hast die [Git Bash](https://git-scm.com/downloads/win) für Windows oder für
@@ -47,7 +53,18 @@ Initialisiere nun ein Node-Projekt mit Standardeinstellungen:
 
     $ npm init --yes
 
-Hierdurch wird eine Datei `package.json` erstellt.
+Hierdurch wird eine Datei `package.json` erstellt. Ersetze in dieser bei der
+Angabe `type` den Wert `commonjs` durch `module`:
+
+```json
+{
+  ...
+  "type": "module"
+}
+```
+
+Dadurch wird das Modulsystem von ECMAScript und nicht dasjenige von Node.js
+verwendet.
 
 Erstelle nun zwei Verzeichnisse namens `src` und `dist` mit je einer leeren Datei namens `.keep`:
 
@@ -91,17 +108,19 @@ Erstelle eine Datei namens `tsconfig.json` mit folgendem Inhalt:
     "target": "ES2024",
     "outDir": "./dist",
     "rootDir": "./src",
-    "module": "CommonJS"
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true
   }
 }
 ```
 
 Damit wird der TypeScript-Code aus `src/` zu JavaScript-Code nach `dist/`
 kompiliert. Der resultierende Code verwendet den Standard _ECMAScript 2024_
-(benötigt mindestens TypeScript 5.7) und das _CommonJS_-Modulsystem, welches bei
-Node.js standardmässig zum Einsatz kommt. (Dies betrifft nur den kompilierten
-JavaScript-Code, der per `node` ausgeführt werden soll. Der selbstgeschriebene
-TypeScript-Code kann hingegen das ECMAScript-Modulsystem verwenden.)
+(benötigt mindestens TypeScript 5.7) und das neueste ECMAScript-Modulsystem
+(`esnext`). Die Einstellugnen `moduleResolution` und `esModuleInterop` sorgen
+dafür, dass Node.js, welches nativ ein anderes Modulsystem verwendet, mit dem
+ECMAScript-Modulsystem im Projekt umgehen kann.
 
 Erstelle nun eine Datei namens `src/index.ts` mit folgendem Inhalt:
 
@@ -137,9 +156,11 @@ Die Kompilierung mittels `tsc` kann in `package.json` als Skript definiert werde
 
 ```json
 {
+  ...
   "scripts": {
     "build": "tsc"
-  }
+  },
+  ...
 }
 ```
 
@@ -183,8 +204,7 @@ Initialisiere die projektweiten Einstellungen nun folgendermassen:
 Beantworte die Fragen folgendermassen:
 
 - ESLint soll zur Syntaxprüfung _und_ Problemfindung verwendet werden.
-- Es sollen JavaScript-Module (`import`/`export`) verwendet werden. (Das
-  konfigurierte _CommonJS_ betrifft nur den Ausgabecode!)
+- Es sollen JavaScript-Module (`import`/`export`) verwendet werden.
 - Es soll kein Framework zum Einsatz kommen.
 - Das Projekt verwendet TypeScript.
 - Der Code soll mit Node ausgeführt werden.
@@ -260,10 +280,12 @@ Auch das Testen kann als Skript in `package.json` definiert werden:
 
 ```json
 {
+  ...
   "scripts": {
     "build": "tsc",
     "test": "npx jest"
-  }
+  },
+  ...
 }
 ```
 
@@ -288,10 +310,7 @@ erreicht man, indem man die Compiler-Option `sourceMap` in `tsconfig.json` auf
 ```json
 {
   "compilerOptions": {
-    "target": "ES2024",
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "module": "CommonJS",
+    ...
     "sourceMap": true
   }
 }
@@ -349,11 +368,12 @@ Code](https://code.visualstudio.com/) arbeiten.
 
 Hierzu sind folgende Erweiterungen hilfreich:
 
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://open-vsx.org/extension/esbenp/prettier-vscode)
+- [ESLint](https://open-vsx.org/extension/dbaeumer/vscode-eslint)
+- [Jest](https://open-vsx.org/extension/Orta/vscode-jest)
 
 Diese Erweiterungen arbeiten mit den installierten Node-Packages (`prettier`,
-`eslint`) zusammen.
+`eslint`, `jest`) zusammen.
 
 Wie man das Debugging in Visual Studio konfiguriert, wird im Video (Link folgt) erklärt.
 
