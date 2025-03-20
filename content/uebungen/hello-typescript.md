@@ -375,7 +375,7 @@ Hierzu sind folgende Erweiterungen hilfreich:
 Diese Erweiterungen arbeiten mit den installierten Node-Packages (`prettier`,
 `eslint`, `jest`) zusammen.
 
-Wie man das Debugging in Visual Studio konfiguriert, wird im Video (Link folgt) erklärt.
+Wie man das Debugging in Visual Studio konfiguriert, wird im [Video](https://youtu.be/vf3dP6fas7w) erklärt.
 
 ## Zusatzaufgabe: Pythagoräische Tripel
 
