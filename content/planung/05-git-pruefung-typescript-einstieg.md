@@ -1,6 +1,7 @@
 +++
 date = '2025-03-13T12:57:38+01:00'
 title = 'Block 5: Prüfung-Versionskontrolle und Einstieg in TypeScript'
+weight = 5
 +++
 
 Im fünften Block findet die Prüfung zum Thema Versionskontrolle statt.
