@@ -13,3 +13,5 @@ weight = 2
 - [Block 2](02-git-grundlagen/): Git-Grundlagen
 - Block 3: Git verwenden (Teil 1); **Arbeitsauftrag**
 - [Block 4](04-git-verwenden-2/): Git verwenden (Teil 2)
+- [Block 5](05-git-pruefung-typescript-einstieg/): Git-Prüfung und Einstieg TypeScript
+- [Block 6](06-unittesting/): Unittesting mit Jest in TypeScript

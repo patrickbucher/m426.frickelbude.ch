@@ -4,7 +4,7 @@ title = 'Technische Praktiken'
 weight = 2
 +++
 
-# Unittesting
+## Unittesting
 
 1. Sie können die Vorteile von Unit Tests gegenüber manuellem Testen benennen.
 1. Sie können Unit Tests für eine gegebene Funktion implementieren.
@@ -15,7 +15,7 @@ weight = 2
 
 Für Assertions wird an der Prüfung Dokumentation zur Verfügung gestellt.
 
-## Unterlagen
+### Unterlagen
 
 - Folien _Unit Testing mit Jest in TypeScript_
 - Skript _Clean Agile_ (Kapitel 5.1 _Test-Driven Development_)
