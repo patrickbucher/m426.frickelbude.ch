@@ -43,10 +43,10 @@ durch. In wenigen Minuten lassen sich tausende davon ausführen.
 
 ### Fragen
 
-- Was bedeutet _Scope Creep_?
-- Was bedeuten _Kopplung_ und _Kohäsion_?
-- Warum erleichtern geringe Kopplung und starke Kohäsion das Schreiben
-  automatischer Testfälle?
+1. Was bedeutet _Scope Creep_?
+1. Was bedeuten _Kopplung_ und _Kohäsion_?
+1. Warum erleichtern geringe Kopplung und starke Kohäsion das Schreiben
+   automatischer Testfälle?
 
 ## Robert C. Martin: Clean Agile
 
@@ -130,16 +130,16 @@ dessen Weiterentwicklung.
 
 ### Verständnisfragen
 
-- Welcher Zusammenhang besteht zwischen TDD und der Buchhaltung?
-- Warum soll sich der Einsatz von Debuggern durch TDD verringern?
-- Was bezeichnet man mit dem Begriff _Testabdeckung_?
-- Was ist das Problem, wenn automatische Tests nachträglich geschrieben werden?
-- Was bedeutet _code rot_ und wie wirkt TDD dem entgegen?
+1. Welcher Zusammenhang besteht zwischen TDD und der Buchhaltung?
+1. Warum soll sich der Einsatz von Debuggern durch TDD verringern?
+1. Was bezeichnet man mit dem Begriff _Testabdeckung_?
+1. Was ist das Problem, wenn automatische Tests nachträglich geschrieben werden?
+1. Was bedeutet _code rot_ und wie wirkt TDD dem entgegen?
 
 ## Weiterführende Fragen
 
-- Welcher Begriff ‒ _Test-First Programming_ oder _Test-Driven Development_ ‒
-  bringt das beschriebene Vorgehen besser zum Ausdruck, und warum?
-- Ist es sinnvoll, wenn das Management den Entwicklern eine
-  Mindesttestabdeckung (von beispielsweise 90%) vorgibt?
-- Was haben automatische Testfälle mit Mut und Vertrauen zu tun?
+1. Welcher Begriff ‒ _Test-First Programming_ oder _Test-Driven Development_ ‒
+   bringt das beschriebene Vorgehen besser zum Ausdruck, und warum?
+1. Ist es sinnvoll, wenn das Management den Entwicklern eine
+   Mindesttestabdeckung (von beispielsweise 90%) vorgibt?
+1. Was haben automatische Testfälle mit Mut und Vertrauen zu tun?
