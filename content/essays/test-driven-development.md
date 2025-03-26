@@ -1,6 +1,6 @@
 +++
 date = '2025-03-25T07:36:42+01:00'
-title = 'Test Driven Development'
+title = 'Test-Driven Development'
 weight = 3
 +++
 
@@ -12,10 +12,10 @@ Schreibe einen scheiternden automatischen Test bevor du Code veränderst.
 Test-First Programming geht gleich mehrere Probleme auf einmal an:
 
 - _Scope Creep_: Beim Programmieren kann man schnell das eigentliche Ziel aus
-  den Augen erlieren und baut dann Code "für alle Fälle" ein. Den Fokus beim
+  den Augen verlieren und baut dann Code "für alle Fälle" ein. Den Fokus beim
   Programmieren erhält man, indem man ausdrücklich und objektiv festlegt, was
-  das Programm machen soll. Wenn man den anderen Code dann wirklich einbauen
-  will, schreibt man einen weiteren Test nachdem man den gegenwärtigen zum
+  das Programm machen soll. Wenn man den anderen Code dann doch noch einbauen
+  will, schreibt man einen weiteren Test, nachdem man den gegenwärtigen zum
   Laufen gebracht hat.
 - _Kopplung_ und _Kohäsion_: Fällt einem das Schreiben eines Tests schwer, ist
   dies eher ein Hinweis auf ein Design-Problem denn auf ein Test-Problem. Lose
@@ -28,7 +28,7 @@ Test-First Programming geht gleich mehrere Probleme auf einmal an:
   verbessern.
 
 Beim kontinuierlichen Testen führt man die Tests nach jeder Änderung am
-Programm aus, sowie ein inkrementeller Compiler bei jeder Code-Anpassung läuft.
+Programm aus, so wie ein inkrementeller Compiler bei jeder Code-Anpassung läuft.
 Testfehler werden im gleichen Format wie Kompilierfehler gemeldet.
 Kontinuierliches Testen reduziert die Dauer der Fehlerbehebung, indem es die
 Dauer der Fehlererkennung verkürzt. Die Tests müssen hierzu jedoch schnell
@@ -37,7 +37,7 @@ durchlaufen.
 Die Tests, die man beim Test-First Programming schreibt, haben die
 Einschränkung, dass sie das Programm aus einer Mikroperspektive betrachten:
 arbeiten die Objekte gut zusammen? Mit steigender Erfahrung wird es einem
-möglich, mehr und mehr Gewissheit mit diesen Tests zum Ausdruck zu bringen.
+möglich, mehr und mehr Vergewisserung mit diesen Tests zum Ausdruck zu bringen.
 Aufgrund ihres begrenzten Umfangs laufen diese Tests tendenziell sehr schnell
 durch. In wenigen Minuten lassen sich tausende davon ausführen.
 
@@ -67,9 +67,9 @@ Test-Driven Development (TDD) ist die dazu entsprechende Technik beim
 Programmieren. Jedes verlangte Verhalten des Programms wird zweimal eingegeben:
 einmal als Testcode, einmal als produktiver Code. Die Verhalten werden
 nacheinander eingegeben: zuerst als (vorerst scheiternden) Test, danach
-als funktionierender Produktivcode, der den Test zum Durchlaufen bringt. Wie in
+als funktionierenden Produktivcode, der den Test zum Durchlaufen bringt. Wie in
 der Buchhaltung soll ein Ergebnis von null erreicht werden: null scheiternde
-Tests. Bei diesem Vorgehen können Fehler entdeckt werden, wenn sie sich gerade
+Tests. Bei diesem Vorgehen können Fehler entdeckt werden, wie sie sich gerade
 in den Code einschleichen ‒ und dadurch rechtzeitig vermieden werden. Im
 Gegensatz zur doppelten Buchhaltung ist TDD (noch?) nicht von Gesetzeswegen
 verlangt.
@@ -101,7 +101,7 @@ Eine umfassende Reihe von Tests (_Test Suite_) ist die beste Art von
 Dokumentation für Programmierer: funktionierende, eigenständige, kleine
 Codebeispiele.
 
-Tests nachträglich für manuell getesteten Code zu schreiben, fühlt sich wie
+Tests nachträglich für manuell getesteten Code zu schreiben fühlt sich wie
 langweilige Beschäftigungstherapie an. Es macht mehr Freude, nach den drei
 Regeln von TDD zu testen und zu programmieren. Code, der unter den Regeln von
 TDD entsteht, ist immer für gute Testbarkeit entworfen. Tests für Produktivcode
@@ -123,7 +123,7 @@ Das höchste Ziel von TDD ist Mut, nicht Testabdeckung (_Courage, not
 Coverage_): Programmierer mit Vertrauen in ihre Testreihe verändern und
 verbessern bestehenden Code ohne Furcht. Entwickler ohne dieses Vertrauen
 schrecken hingegen davor zurück, unordentlichen Code aufzuräumen. Dadurch fängt
-die Codebasis an zu "verfaulen" (_to rot_). Wird der Code unwartbar, wird die
+die Codebasis an zu "verfaulen" (_code rot_). Wird der Code unwartbar, wird die
 Weiterentwicklung schwieriger und kommt schlussendlich vollends zum Stillstand.
 TDD hingegen hält den Code in Ordnung und gibt dem Programmierer Zuversicht für
 dessen Weiterentwicklung.
@@ -134,6 +134,7 @@ dessen Weiterentwicklung.
 - Warum soll sich der Einsatz von Debuggern durch TDD verringern?
 - Was bezeichnet man mit dem Begriff _Testabdeckung_?
 - Was ist das Problem, wenn automatische Tests nachträglich geschrieben werden?
+- Was bedeutet _code rot_ und wie wirkt TDD dem entgegen?
 
 ## Weiterführende Fragen
 
