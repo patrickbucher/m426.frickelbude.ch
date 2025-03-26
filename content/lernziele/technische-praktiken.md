@@ -21,3 +21,18 @@ Für Assertions wird an der Prüfung Dokumentation zur Verfügung gestellt.
 - Skript _Clean Agile_ (Kapitel 5.1 _Test-Driven Development_)
 - Repository [rule-of-three](https://github.com/m426-2025/rule-of-three)
 - Repository [unittest-typescript](https://github.com/m426-2025/unittest-typescript)
+
+## Test-Driven Development
+
+1. Sie können die Auswirkung von _Test-First Programming_ bzw. _Test-Driven
+   Development_ (TDD) auf den Entwicklungsprozess (Arbeitsrhythmus,
+   Fehlersuche, Debugging) und die Code-Qualität (API-Design) erläutern.
+1. Sie können das TDD-Vorgehen anhand der drei Regeln wiedergeben, erklären,
+   begründen und anwenden.
+1. Sie können die Vor- und Nachteile von gruppierten gegenüber parametrisierten
+   Testfällen nachvollziehen und erklären.
+
+### Unterlagen
+
+- Essay [Test-Driven Development](https://m426.frickelbude.ch/essays/test-driven-development/index.html)
+- Repository [test-driven-development](https://github.com/m426-2025/test-driven-development)
