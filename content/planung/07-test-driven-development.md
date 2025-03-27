@@ -19,7 +19,8 @@ Sie können den Entwicklungsprozess gemäss _Test-Driven Development_ nachvollzi
 
 ### Lektion 2
 
-- [45 min.] Übung [test-driven-development](https://github.com/m426-2025/test-driven-development)
+- [40 min.] Übung [test-driven-development](https://github.com/m426-2025/test-driven-development)
+- [5 min.] Kurzbesprechung Prüfung Versionskontrolle
 
 ### Hausaufgaben
 
