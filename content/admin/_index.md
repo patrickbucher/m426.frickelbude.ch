@@ -23,7 +23,7 @@ Die **Bewertung** wird für die Modulnote und für die Prädikate berücksichtig
 
 **Plagiate** werden mit 0 Punkten bewertet sowie dem Lehrbetrieb und der Schulleitung gemeldet!
 
-Kann die Aufgabe aufgrund von **Krankheit** oder sonstiger **Verhinderung(()) nicht fristgerecht eingereicht bzw. gezeigt werden, muss der/die Lernende proaktiv Kontakt zur Lehrperson aufnehmen um eine Lösung zu finden!
+Kann die Aufgabe aufgrund von **Krankheit** oder sonstiger **Verhinderung** nicht fristgerecht eingereicht bzw. gezeigt werden, muss der/die Lernende proaktiv Kontakt zur Lehrperson aufnehmen um eine Lösung zu finden!
 
 ### Aufgabe _Test-Driven Development_
 
