@@ -9,3 +9,5 @@ weight = 4
 
 - [Cargo Cult](cargo-cult/)
 - [Versionskontrolle](versionskontrolle/)
+- [Test-Driven Development](test-driven-development/)
+- [Pair Programming](pair-programming/)
