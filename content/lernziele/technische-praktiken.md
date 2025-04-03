@@ -36,3 +36,20 @@ Für Assertions wird an der Prüfung Dokumentation zur Verfügung gestellt.
 
 - Essay [Test-Driven Development](https://m426.frickelbude.ch/essays/test-driven-development/index.html)
 - Repository [test-driven-development](https://github.com/m426-2025/test-driven-development)
+
+## Pair Programming
+
+1. Sie können die Motivation, die Ziele und den Nutzen von Pair Programming
+   benennen.
+1. Sie können die verschiedenen Ansichten zum Thema Pair Programming von Robert
+   C. Martin (_Clean Agile_) und Kent Beck (_Extreme Programming_) wiedergeben
+   und gegeneinander abgrenzen.
+1. Sie können mögliche Probleme beim Pair Programming mit passenden Lösungen
+   dazu benennen.
+1. Sie können eine Pair Programming Session vor Ort oder per Videokonferenz
+   organisieren, durchführen und im Anschluss reflektieren.
+
+### Unterlagen
+
+- Essay [Pair Programming](/essays/pair-programming/)
+- Repository [pair-programming](https://github.com/m426-2025/pair-programming)
