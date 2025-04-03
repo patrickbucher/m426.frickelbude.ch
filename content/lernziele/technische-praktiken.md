@@ -41,9 +41,9 @@ Für Assertions wird an der Prüfung Dokumentation zur Verfügung gestellt.
 
 1. Sie können die Motivation, die Ziele und den Nutzen von Pair Programming
    benennen.
-1. Sie können die verschiedenen Ansichten zum Thema Pair Programming von Robert
-   C. Martin (_Clean Agile_) und Kent Beck (_Extreme Programming_) wiedergeben
-   und gegeneinander abgrenzen.
+ 1. Sie können die verschiedenen Ansichten zum Thema Pair
+   Programming von Kent Beck (_Extreme Programming_) und Robert C. Martin
+   (_Clean Agile_) wiedergeben und gegeneinander abgrenzen.
 1. Sie können mögliche Probleme beim Pair Programming mit passenden Lösungen
    dazu benennen.
 1. Sie können eine Pair Programming Session vor Ort oder per Videokonferenz
