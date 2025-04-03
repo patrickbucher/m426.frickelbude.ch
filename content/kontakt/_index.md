@@ -14,6 +14,7 @@ Luzern, Schweiz). Ich bin der Autor dieser Webseite und betreibe sie. Ich bin
 
 - E-Mail: [patrick.bucher@sluz.ch](mailto:patrick.bucher@sluz.ch)
 - GitHub: [patrickbucher](https://github.com/patrickbucher)
+    - Organisation für Übungen: [m426-2025](https://github.com/m426-2025)
     - Repository dieser Webseite:
       [m426.frickelbude.ch](https://github.com/patrickbucher/m426.frickelbude.ch)
 - YouTube: [Modul 426](https://www.youtube.com/channel/UCPq4iLFbolH2deHLMVKha1A)
