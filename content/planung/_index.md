@@ -16,3 +16,4 @@ weight = 2
 - [Block 5](05-git-pruefung-typescript-einstieg/): Git-Prüfung und Einstieg TypeScript
 - [Block 6](06-unittesting/): Unittesting mit Jest in TypeScript
 - [Block 7](07-test-driven-development/): Test-Driven Development
+- [Block 8](08-pair-programming/): Pair Programming
