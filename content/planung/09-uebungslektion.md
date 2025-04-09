@@ -12,9 +12,8 @@ Sie haben Gelegenheit zum Festigen der Theorie (INA23a) bzw. zum Üben (übrige 
 ## Ablauf
 
 ### Lektionen 1 & 2
-
 - [5 min.] Administratives
-- [25 min.] Mob Programming (siehe Repository [code-examples](https://github.com/m426-2025/code-examples))
+- [25 min.] Mob Programming (siehe Repository [mob-programming](https://github.com/m426-2025/mob-programming))
 - [45 min.]
     - INA23a: Besprechung Theorie
     - übrige: Übungs- und Repetitionsphase
