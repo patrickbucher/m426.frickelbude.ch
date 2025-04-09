@@ -17,3 +17,4 @@ weight = 2
 - [Block 6](06-unittesting/): Unittesting mit Jest in TypeScript
 - [Block 7](07-test-driven-development/): Test-Driven Development
 - [Block 8](08-pair-programming/): Pair Programming
+- [Block 9](09-uebungslektion/): Übungs- und Repetitionslektion
