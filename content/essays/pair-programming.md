@@ -4,7 +4,7 @@ title = 'Pair Programming'
 weight = 4
 +++
 
-## Kent Beck: Extreme Programming
+## Kent Beck: Extreme Programming (1999/2004)
 
 _Freie Übersetzung von **Pair Programming** auf S. 42-44_
 
@@ -95,7 +95,7 @@ dabei unwohl fühlen.
 2. Unter welchen Umständen soll man auch alleine programmieren?
 3. Welche Probleme können auf menschlicher Ebene auftreten?
 
-## Robert C. Martin: Clean Agile
+## Robert C. Martin: Clean Agile (2019)
 
 _Freie Übersetzung von **Technical Practices** auf S. 127-131_
 
