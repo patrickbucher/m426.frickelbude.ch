@@ -1,6 +1,7 @@
 +++
 date = '2025-05-07T20:38:48+02:00'
 title = 'Block 10: Clean Code'
+weight = 10
 +++
 
 Im zehnten Block schauen wir uns die Idee hinter "Clean Code" an: dass Programme nicht nur von einem Compiler bzw. Interpreter verarbeitet werden, sondern auch für Menschen verständlich sein müssen. In der anschliessenden Übung wird mangelhafter Code zuerst besser lesbar gemacht.

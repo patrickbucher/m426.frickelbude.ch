@@ -1,6 +1,7 @@
 +++
 date = '2025-04-09T16:23:43+02:00'
 title = 'Block 9: Übungs- und Repetitionslektion'
+weight = 9
 +++
 
 Im neunten Block haben wir Gelegenheit zum Üben bzw. um die Theorie (Test-Driven Development, Pair Programming) gemeinsam zu besprechen (Way-Up-Klasse). Zudem machen wir eine kurze _Mob Programming Session_, um einige TypeScript-Konzepte zu erarbeiten bzw. zu vertiefen. Zum Schluss wird der benotete Auftrag zum _Pair Programming_ erteilt.
