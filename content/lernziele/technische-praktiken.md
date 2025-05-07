@@ -53,3 +53,24 @@ Für Assertions wird an der Prüfung Dokumentation zur Verfügung gestellt.
 
 - Essay [Pair Programming](/essays/pair-programming/)
 - Repository [pair-programming](https://github.com/m426-2025/pair-programming)
+
+## Clean Code
+
+1. Sie wissen, warum Lesbarkeit und Verständlichkeit wichtige Kriterien für
+   guten Programmcode sind.
+1. Sie können die Vorteile von einheitlicher Code-Formatierung gegenüber
+   unformatiertem Code benennen und die entsprechenden Regeln anwenden.
+1. Sie verstehen den Zusammenhang zwischen Code-Formatierung und
+   Versionskontrolle.
+1. Sie verstehen die Regeln zur Benennung von Bezeichnern und können diese
+   anwenden.
+1. Sie können nützliche von unnützen Kommentaren unterscheiden und den Quellcode
+   sinnvoll kommentieren.
+1. Sie können das Prinzip der Wiederverwendbarkeit auf Code und Werte anwenden.
+1. Sie können die Regeln der Klarheit von Programmcode anwenden.
+
+### Unterlagen
+
+- TODO: Folien _Clean Code_
+- TODO: Repository [red-rigged-raffle]()
+
