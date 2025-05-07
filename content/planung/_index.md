@@ -18,3 +18,4 @@ weight = 2
 - [Block 7](07-test-driven-development/): Test-Driven Development
 - [Block 8](08-pair-programming/): Pair Programming
 - [Block 9](09-uebungslektion/): Übungs- und Repetitionslektion
+- [Block 10](10-clean-code/): Clean Code
