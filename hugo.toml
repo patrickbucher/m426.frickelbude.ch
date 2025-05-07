@@ -14,6 +14,7 @@ math = false
 openapi = false
 showVisitedLinks = true
 themeVariant = 'blue'
+hideAuthorDate = true
 
 [params.author]
 name = 'Patrick Bucher'
