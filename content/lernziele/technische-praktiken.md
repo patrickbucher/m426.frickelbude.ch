@@ -71,6 +71,6 @@ Für Assertions wird an der Prüfung Dokumentation zur Verfügung gestellt.
 
 ### Unterlagen
 
-- TODO: Folien _Clean Code_
-- TODO: Repository [red-rigged-raffle]()
+- Folien _Clean Code_
+- Repository [red-rigged-raffle](https://github.com/m426-2025/red-rigged-raffle)
 
