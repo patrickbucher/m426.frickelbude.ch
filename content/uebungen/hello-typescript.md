@@ -1,6 +1,7 @@
 +++
 date = '2025-03-13T12:55:03+01:00'
 title = 'Hello, Typescript!'
+weight = 1
 +++
 
 Hier ist beschrieben, wie man ein TypeScript-Projekt mit Kompilierung
