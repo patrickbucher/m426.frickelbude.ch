@@ -21,7 +21,9 @@ Sie können die Struktur bestehenden Codes so verbessern, dass dieser besser war
 
 ### Lektion 2
 
-- [45 min.] Selbständige Arbeit an den Übungen
+- [45 min.] Selbständige Arbeit an den Übungen, wahlweise:
+    1. [tanzverbot-diet](https://github.com/m426-2025/tanzverbot-diet) oder
+    2. [unit-converter](https://github.com/m426-2025/unit-converter)
 
 ### Hausaufgaben
 
