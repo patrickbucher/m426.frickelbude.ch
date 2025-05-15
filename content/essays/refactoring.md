@@ -1,8 +1,7 @@
 +++
 date = '2025-05-14T14:17:22+02:00'
 title = 'Refactoring'
-weight = 2
-draft = true
+weight = 5
 +++
 
 ## Definition
@@ -25,7 +24,57 @@ p. 45 (Martin Fowler, Kent Beck)
 > **Refactoring** (Verb): Software restrukturieren, indem man eine Reihe von
 > Refactorings vornimmt, ohne deren wahrnehmbares Verhalten zu verändern.
 
-(Eigene Übersetzung)
+(Eigene Übersetzung davon)
+
+## Clean Agile: Refactoring
+
+Refactoring ist eine Praktik, bei welcher die Struktur des Codes angepasst wird,
+ohne dabei dessen Verhalten zu verändern. Dieses Verhalten ist durch Testfälle
+definiert, welche nach dem Refactoring des Codes immer noch durchlaufen müssen.
+
+Die Praktik des Refactorings ist eng verknüpft mit der Praktik von TDD. Es
+benötigt eine gute Testreihe, damit der Code furchtlos verändert werden kann.
+Die dritte TDD-Regel besagt, dass man nicht mehr Produktivcode schreiben darf,
+als benötigt wird, um den Test zum Durchlaufen zu bringen. Diesen Code jedoch zu
+verbessern ist nicht bloss erlaubt, sondern wärmstens empfohlen.
+
+Der Ablauf des Refactorings ist im _Rot/Grün/Refactor_-Zyklus beschrieben:
+
+![Der Rot/Grün/Refactor-Zyklus](/img/refactoring.png)
+
+- _Rot_: Schreibe einen scheiternden Test.
+- _Grün_: Schreibe so viel Produktivcode, wie nötig ist, damit der Test
+  durchläuft.
+- _Refactor_: Räume den Code auf, ohne dabei Testfälle kaputt zu machen.
+
+Das Schreiben von funktionierendem Code alleine ist schon schwer genug, und so
+ist auch das Schreiben von sauberem Code. Darum können diese beiden Ziele ‒
+_funktionierender_ Code, _sauberer_ Code ‒ am besten in zwei getrennten
+Schritten erreicht werden.
+
+Die Änderungen, die beim Refactoring vorgenommen werden, können von trivialen,
+kosmetischen Verbesserungen bis zu tiefen Umstrukturierungen reichen, z.B.:
+
+- die Namen von Variablen, Funktionen, Klassen usw. ändern
+- eine `switch`-Anweisung mit mehreren Klassen und Polymorphie umschreiben
+- grosse Funktionen oder Klassen in mehrere kleinere aufteilen
+- Code verschieben, z.B. in andere Funktionen, Klassen oder Komponenten
+
+Martin Fowler beschreibt solche Techniken und den gesamten Vorgang in seinem
+Buch _Refactoring: Improving the Design of Existing Code_ (zweite Ausgabe 2018,
+erste Ausgabe 2000) wesentlich detaillierter.
+
+Refactoring ist ein andauernder Prozess, und nicht etwas, das man einplant, wenn
+das Chaos im Code untragbar geworden ist. Mit beständigem Refactoring wird nie
+ein Chaos entstehen.
+
+Es gibt Anforderungen, welche grössere Änderungen im Design und in der Struktur
+des Codes erfordern. In diesem Fall müssen grössere Refactorings vorgenommen
+werden. Obwohl solche grossen Refactorings sich über eine lange Zeit erstrecken
+können, sollten sie dennoch mit einem kontinuierlichen Ansatz angegangen werden,
+indem man alle Tests während des Vorgangs am Durchlaufen hält.
+
+Quelle: _Clean Agile_ (Robert C. Martin), p. 123-125
 
 ## Gründe für das Refactoring
 

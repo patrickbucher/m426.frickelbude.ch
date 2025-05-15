@@ -74,3 +74,17 @@ Für Assertions wird an der Prüfung Dokumentation zur Verfügung gestellt.
 - Folien _Clean Code_
 - Repository [red-rigged-raffle](https://github.com/m426-2025/red-rigged-raffle)
 
+## Refactoring
+
+1. Sie können das Ziel von Refactoring erklären und können diesen Vorgang gegenüber Neuentwicklung und Fehlerkorrektur abgrenzen.
+1. Sie können den Zusammenhang zwischen Unit Testing und Refactoring erklären (_Red/Green/Refactor_).
+1. Sie können erklären, was ein _Code Smell_ ist, und welche Rolle es beim Refactoring spielt.
+1. Sie können _Code Smells_ an bestehendem Programmcode erkennen und geeignete Refactorings anwenden, um den betreffenden Code zu verbessern.
+1. Sie verstehen die Vorgehensweise beim Refactoring in drei Schritten und können diese auf bestehenden Code anwenden.
+
+### Unterlagen
+
+- Folien _Refactoring_
+- Infoseite zum Thema _Refactoring_ (TODO: verlinken)
+- TODO: zwei Repositories (Übungen)
+- optional: Skript _Clean Agile_ (Kapitel 5.2 _Refactoring_)
