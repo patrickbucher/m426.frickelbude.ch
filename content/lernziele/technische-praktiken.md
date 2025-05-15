@@ -87,5 +87,5 @@ Für Assertions wird an der Prüfung Dokumentation zur Verfügung gestellt.
 - Folien _Refactoring_
 - Essay [Refactoring](/essays/refactoring/)
 - Übungen
-   - [Tanzverbot-Diät](https://github.com/m426-2025/tanzverbot-diet)
-   - [Einheits-Umrechner](https://github.com/m426-2025/unit-converter)
+   - [tanzverbot-diet](https://github.com/m426-2025/tanzverbot-diet)
+   - [unit-converter](https://github.com/m426-2025/unit-converter)
