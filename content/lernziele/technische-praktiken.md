@@ -85,6 +85,7 @@ Für Assertions wird an der Prüfung Dokumentation zur Verfügung gestellt.
 ### Unterlagen
 
 - Folien _Refactoring_
-- Infoseite zum Thema _Refactoring_ (TODO: verlinken)
-- TODO: zwei Repositories (Übungen)
-- optional: Skript _Clean Agile_ (Kapitel 5.2 _Refactoring_)
+- Essay [Refactoring](/essays/refactoring/)
+- Übungen
+   - [Tanzverbot-Diät](https://github.com/m426-2025/tanzverbot-diet)
+   - [Einheits-Umrechner](https://github.com/m426-2025/unit-converter)
