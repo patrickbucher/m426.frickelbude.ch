@@ -1,6 +1,6 @@
 +++
 date = '2025-05-15T19:39:27+02:00'
-title = '11 Refactoring'
+title = 'Block 11: Refactoring'
 weight = 11
 +++
 
