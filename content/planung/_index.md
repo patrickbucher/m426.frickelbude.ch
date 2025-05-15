@@ -19,3 +19,4 @@ weight = 2
 - [Block 8](08-pair-programming/): Pair Programming
 - [Block 9](09-uebungslektion/): Übungs- und Repetitionslektion
 - [Block 10](10-clean-code/): Clean Code
+- [Block 11](11-refactoring/): Refactoring
