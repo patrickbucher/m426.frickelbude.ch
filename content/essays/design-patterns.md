@@ -32,6 +32,8 @@ Das Buch _A Pattern Language_ von Christopher Alexaner et. al. beschreibt erprob
 
 Auf die Softwareentwicklung bezogen sind Entwurfsmuster Rezepte für Probleme, die immer wieder in ähnlicher Form auftauchen. Das Standardwerk zum Thema ist [Design Patterns. Elements of Reusable Object-Oriented Software](https://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-9780201633610) von Erich Gamma et. al. Darin sind erprobte Muster für immer wieder auftauchende Problemklassen in der objektorientierten Programmierung beschrieben.
 
+Entwurfsmuster sind dabei nicht wiederverwendbare Codestücke, die man per Library oder Framework verteilen könnte, sondern Rezepte für Lösungen, die auf ein spezifisches Problem angewendet werden können.
+
 Diese lassen sich nach Zweck einteilen:
 
 - ***Creational Patterns***: _Erstellen_ von Objekten

@@ -89,3 +89,14 @@ Für Assertions wird an der Prüfung Dokumentation zur Verfügung gestellt.
 - Übungen
    - [tanzverbot-diet](https://github.com/m426-2025/tanzverbot-diet)
    - [unit-converter](https://github.com/m426-2025/unit-converter)
+
+## Entwurfsmuster
+
+1. Sie können die Idee von Entwurfsmustern (Design Patterns) erklären und sie von anderen Arten der Software-Wiederverwendbarkeit (Libraries, Frameworks) abgrenzen.
+1. Sie können die konkreten Entwurfsmuster _Adapter_, _Observer_ und _State_ erklären und auf eine gegebene Problemstellung anwenden.
+
+### Unterlagen
+
+- Folien _Entwurfsmuster_
+- Essay [Design Patterns (Entwurfsmuster)](/essays/design-patterns/)
+- Repository [design-patterns](https://github.com/m426-2025/design-patterns)
