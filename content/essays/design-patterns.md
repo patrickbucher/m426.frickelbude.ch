@@ -14,17 +14,23 @@ Das Hauptprogramm `Program` verwendet ein externes Paket für geometrische Berec
 
 Dummerweise verfügt die Anwendung bereits über eine andere Abstraktion: die `Square`-Klasse, welche das `Quadratic`-Interface implementiert.
 
-Wir verwenden Quadrate mit nur einer Seitenangabe, doch das Geometrie-Paket kann nur mit Rechtecken mit zwei Seitenangaben (Höhe und Breite) umgehen. Da das Quadrat mathematisch ein Spezialfall eines Rechtecks ist, dies aber nicht in der Klassenhierarchie der Fall ist, können wir den `Calculator` nicht mit Quadraten verwenden.
+Wir verwenden Quadrate mit nur einer Seitenangabe, doch das Geometrie-Paket kann nur mit Rechtecken mit zwei Seitenangaben (Höhe und Breite) umgehen. Da das Quadrat mathematisch ein Spezialfall eines Rechtecks ist, dies aber nicht in der Klassenhierarchie zum Ausdruck kommt, können wir den `Calculator` nicht mit Quadraten verwenden.
 
-**Problem**: Wie bringen wir das Quadratische durch das Rechteckige?
+> **Problem**: Wie bringen wir das Quadratische durch das Rechteckige?
 
 Dieses Problem, dass zwei Dinge, die zwar konzeptionell kompatibel, aber implementierungstechnisch inkompatibel sind, gibt es öfters in der Softwareentwicklung.
 
-Und wie es für implementierungstechnische Probleme, die oft auftreten, Wiederverwendbarkeit gibt (in der Form von Libraries und Frameworks), gibt es auch eine Wiederverwendbarkeit auf konzeptioneller Ebene. Diese nennt man _Entwurfsmuster_ oder _Design Patterns_.
+Und wie es für implementierungstechnische Probleme, die oft auftreten, Wiederverwendbarkeit gibt in der Form von Libraries und Frameworks, gibt es auch eine Wiederverwendbarkeit auf konzeptioneller Ebene. Diese nennt man _Entwurfsmuster_ oder _Design Patterns_.
 
 ## Lösungsrezepte für wiederauftretende Probleme
 
-Entwurfsmuster sind Rezepte für Probleme, die immer wieder in ähnlicher Form in der Softwareentwicklung auftauchen. Das Standardwerk zum Thema ist [Design Patterns. Elements of Reusable Object-Oriented Software](https://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-9780201633610). Darin sind erprobte Muster für immer wieder auftauchende Problemklassen in der objektorientierten Programmierung beschrieben.
+Das Konzept der Entwurfsmuster stammt ursprünglich aus der Architektur. Dort befasst man sich mit Fragen der folgenden Art:
+
+> Wie kann ich den Grundriss eines Einfamilienhauses gestalten, damit jeder Raum von zwei Seiten her Lichteinfall hat?
+
+Das Buch _A Pattern Language_ von Christopher Alexaner et. al. beschreibt erprobte Lösungen zu diesen wiederkehrenden Problemen. Es zeigt keine konkreten Baupläne, aber Skizzen für Baupläne, bei denen das besagte Problem elegant gelöst worden ist. Der Architekt kann das Muster auf sein konkretes Problem anwenden. (Das Wiederverwenden von konkreten Bauplänen käme dabei eher der Verwendung einer Library in der Softwareentwicklung gleich.)
+
+Auf die Softwareentwicklung bezogen sind Entwurfsmuster Rezepte für Probleme, die immer wieder in ähnlicher Form auftauchen. Das Standardwerk zum Thema ist [Design Patterns. Elements of Reusable Object-Oriented Software](https://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-9780201633610) von Erich Gamma et. al. Darin sind erprobte Muster für immer wieder auftauchende Problemklassen in der objektorientierten Programmierung beschrieben.
 
 Diese lassen sich nach Zweck einteilen:
 
@@ -46,7 +52,7 @@ Eine frei verfügbare Quelle zu diesem Thema ist [refactoring.guru](https://refa
 
 ## Das Adapter-Pattern
 
-Doch zurück zum ursprünglichen Thema. Wie bringen wir nun das Rechteckige durch das Quadratische? Mit einem [Adapter](https://refactoring.guru/design-patterns/adapter)!
+Doch zurück zum ursprünglichen Problem. Wie bringen wir nun das Rechteckige durch das Quadratische? Mit einem [Adapter](https://refactoring.guru/design-patterns/adapter)!
 
 > **Adapter** is a structural design pattern that allows objects with incompatible interfaces to collaborate.
 
@@ -54,7 +60,7 @@ Die Lösung besteht darin, einen Adapter zu implementieren, der einerseits kompa
 
 ![Klassendiagramm: Das Adapter-Entwurfsmuster](/img/adapter-solution.png)
 
-Damit können wir sowohl die bestehende Implementierung als auch die externe Library verwenden, ohne etwas an unserem Code zu _verändern_. Stattdessen erweitern wir unseren Code, um die Kompatibilität bestehender Interfaces zu gewährleisten.
+Damit können wir sowohl die bestehende Implementierung als auch die externe Library verwenden, ohne etwas an unserem Code zu _verändern_. Stattdessen _erweitern_ wir unseren Code um ein zusätzliches Interface, um die Kompatibilität zur Library gewährleisten zu können.
 
 ## Übungen
 
