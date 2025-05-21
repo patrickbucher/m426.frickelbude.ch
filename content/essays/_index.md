@@ -11,3 +11,5 @@ weight = 4
 - [Versionskontrolle](versionskontrolle/)
 - [Test-Driven Development](test-driven-development/)
 - [Pair Programming](pair-programming/)
+- [Refactoring](refactoring/)
+- [Design Patterns](design-patterns/)
