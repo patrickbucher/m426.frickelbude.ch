@@ -20,3 +20,4 @@ weight = 2
 - [Block 9](09-uebungslektion/): Übungs- und Repetitionslektion
 - [Block 10](10-clean-code/): Clean Code
 - [Block 11](11-refactoring/): Refactoring
+- [Block 12](12-design-patterns/): Design Patterns
