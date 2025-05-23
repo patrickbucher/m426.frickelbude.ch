@@ -16,12 +16,14 @@ Sie können die Entwurfsmuster _Adapter_, _Observer_ und _State_ auf ein gestell
 
 - [10 min.] Videobeispiel
 - [5 min.] Administratives
-- [30 min.] Folien zum Thema Entwurfsmuster
+- [5 min.] Bemerkungen zum Auftrag _Pair Programming_
+- [20 min.] Folien zum Thema Entwurfsmuster
 - [5 min.] Erteilung des Auftrags
 
 ### Lektion 2
 
 - [45 min.] Selbständige Arbeit an den [Übungen](https://github.com/m426-2025/design-patterns)
+    - gleichzeitig: gruppenweise Rückmeldung zum Auftrag _Pair Programming_
 
 ### Hausaufgaben
 
