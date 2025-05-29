@@ -21,3 +21,4 @@ weight = 2
 - [Block 10](10-clean-code/): Clean Code
 - [Block 11](11-refactoring/): Refactoring
 - [Block 12](12-design-patterns/): Design Patterns
+- [Block 13](13-pruefung-technische-praktiken/): Prüfung technische Praktiken
