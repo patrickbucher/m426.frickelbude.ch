@@ -80,4 +80,8 @@ Am Ende dieses "Spiels" verbleibt ein Sprint-Backlog, das dann beispielsweise so
 
 ## Aufgabe
 
-TODO
+Hören Sie sich die Aufzeichnung ([MP3](/audio/warenkorb.mp3), [Opus](/audio/warenkorb.opus)) über die geforderten Erweiterungen eines Warenkorbsystems für einen Online-Shop an.
+
+Formulieren Sie für die darin geäusserten Anforderungen User Stories inkl. Akzeptanzkriterien. Die Anforderungen sollen möglichst vollständig in ca. 5 User Stories festgehalten werden. Beachten Sie hierzu auch die Einhaltung der Invest-Kriterien.
+
+Unklarheiten sollen als Fragen zu den jeweiligen User Stories festgehalten werden.
