@@ -47,11 +47,29 @@ Dieser Vorteil kann aber auch zu einem Nachteil werden, denn durch die Zahl ger�
 
 T-Shirt-Grössen haben den Vorteil, dass sie den Unsicherheitsfaktor wahrheitsgetreu wiedergeben und man (bzw. Manager) nicht in Versuchung geraten, damit zu rechnen.
 
+Die Einschätzung der Story-Grössen erfolgt im Team. Dabei ist es oft nicht so einfach, einen Konsens darüber zu finden, wie viele Story Points einer User Story zugeordnet werden sollen. Auch ist es problematisch, wenn einzelne dominante Teammitglieder den Rest vom Team überstimmen oder auch nur beeinflussen.
+
 #### Planning Poker
 
-TODO: beschreiben
+_Planning Poker_ bezeichnet eine Technik, womit sichergestellt werden kann, dass alle Teammitglieder ihre unverfälsche Einschätzung über die Storypunkte abgeben können. Hierbei erhalten alle Teammitglieder ein Deck an Karten mit den folgenden Bezeichnungen:
 
-Für Übung: [Planning Poker Online](https://planningpokeronline.com/)
+- nummerierte Karten: 0, 1, 2, 3, 5 usw. (Anzahl Storypunkte)
+- :infinity: unendlich (die Story ist zu gross für eine Einschätzung)
+- ?: unklar (die Story ist zu wenig gut definiert für eine Schätzung)
+- :coffee: Pause (das Teammitglied hält eine Pause für angebracht)
+
+Die User Stories werden der Reihe nach vorgelesen, worauf sich alle Anwesenden ihre Gedanken über sie machen können. Jedes Mitglied gibt nun verdeckt einen Tipp ab, indem es die dazu passende Karte verdeckt vor sich auf den Tisch legt. Wenn alle Mitglieder bereit sind, werden alle Karten gleichzeitig umgedreht.
+
+Nun wird geprüft, ob ein Konsens erreicht worden ist:
+
+- Weisen alle Karten die gleiche Anzahl Storypunkte auf, kann diese Zahl übernommen werden.
+- Weisen die Karten eine unterschiedliche Anzahl von Storypunkten auf, erklärt jedes Teammitglied seine Wahl. Nach einer Diskussion findet eine zweite Runde statt. Der Vorgang wird wiederholt, bis sich ein Konsens ergibt.
+- Weisen mehrere Karten das Symbol :infinity: auf, muss die Story aufgeteilt und in einer späteren Sitzung erneut geschätzt werden.
+- Weisen mehrere Karten das Symbol :coffee: auf, sollte eine Pause eingelegt werden. (Siehe auch das Phänomen der [Entscheidungsmüdigkeit](https://karrierebibel.de/entscheidungsmuedigkeit/))
+
+Nicht immer kann ein Konsens gefunden werden. Vielleicht weiss ein Teammitglied mehr als die anderen und ist sich sicher, dass eine Story sehr bzw. überhaupt nicht aufwändig ist. Können die unterschiedlichen Ansichten nicht in miteinander in Einklang gebracht werden, wäre es wohl sinnvoller, die Story zu einem späteren Zeitpunkt erneut zu verhandeln. Die Zeit bis dahin sollte genutzt werden, um mögliche Unklarheiten über die betreffende Story auszuräumen (Rücksprache mit dem Auftraggeber, technische Abklärungen).
+
+Planning-Poker-Sets können in diversen Online-Shops für ca. CHF 20.- erworben werden. Es stehen auch virtuelle Umsetzungen wie z.B. [Planning Poker Online](https://planningpokeronline.com/) zur Verfügung.
 
 ### Nutzen
 
