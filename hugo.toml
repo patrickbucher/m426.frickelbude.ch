@@ -1,6 +1,7 @@
 baseURL = 'https://m426.frickelbude.ch'
 languageCode = 'de-ch'
 title = 'Modul 426'
+enableEmoji = true
 
 [module]
 [[module.imports]]
