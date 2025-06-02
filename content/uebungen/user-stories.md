@@ -20,18 +20,18 @@ Beispiel:
 
 Gute User Stories genügen den sogenannten _INVEST_-Kriterien (benannt anhand ihrer Anfangsbuchstaben):
 
-- **I**ndependent (unabhängig): Die Abhängigkeiten zwischen einzelnen User Stories sollten auf ein Minimum reduziert werden. Idealerweise sind User Stories unabhängig von anderen User Stories. Abhängigkeiten sollten dokumentiert werden, damit man die Stories nicht in der falschen Reihenfolge angeht.
-- **N**egotiable (verhandelbar): Die Stories sollten einen gewissen Verhandlungsspielraum zwischen Entwicklung und Business bieten, sodass beispielsweise eine etwas vereinfachte Variante davon umgesetzt wird, wenn dadurch sehr viel Entwicklungsaufwand eingespart werden kann.
-- **V**aluable (wertvoll): User Stories müssen einen klaren Nutzen für den Anwender des Systems schaffen. Aufgaben wie Refactoring, die für den Endnutzer nicht wahrnehmbar sind, sind also keine User Stories. In der Regel betrifft eine User Story alle Schichten des Systems: von Frontend über Backend bis zur Datenbank.
+- **I**ndependent (unabhängig): Die Abhängigkeiten zwischen einzelnen User Stories sollten auf ein Minimum reduziert werden. Idealerweise sind User Stories unabhängig von anderen User Stories. Unabhängige User Stories können in einer beliebigen Reihenfolge bzw. gemäss ihrer Priorität eingeplant werden. Abhängigkeiten sollten dokumentiert werden, damit man die Stories nicht in der falschen Reihenfolge umsetzt.
+- **N**egotiable (verhandelbar): Die Stories sollten einen gewissen Verhandlungsspielraum zwischen Entwicklung und Business bieten, sodass beispielsweise eine etwas vereinfachte Variante davon umgesetzt werden kann, wenn dadurch sehr viel Entwicklungsaufwand eingespart wird.
+- **V**aluable (wertvoll): User Stories müssen einen klaren Nutzen für den Anwender des Systems schaffen. Aufgaben wie Refactoring, deren Ergebnis der Benutzer nicht direkt wahrnehmen kann, sind also keine User Stories. In der Regel betrifft eine User Story alle Schichten des Systems: von Frontend über Backend bis zur Datenbank.
 - **E**stimable (schätzbar): Die User Story muss genügend detailliert beschrieben sein, dass man ihren Aufwand ungefähr abschätzen kann.
 - **S**mall (klein): Eine User Story sollte so klein sein, dass sie innerhalb einer Iteration (eines Sprints) von einem oder zwei Enwicklern umgesetzt werden kann. Grössere Stories sollten in kleinere Stories heruntergebrochen oder vereinfacht werden.
-- **T**estable (testbar): Eine User Story sollte Umsetzungskriterien umreissen, anhand welcher die Entwickler automatisierte bzw. die Qualitätssicherung manuelle Testfälle ableiten können.
+- **T**estable (testbar): Eine User Story sollte Umsetzungskriterien beschreiben, anhand welcher die Entwickler automatisierte bzw. die Qualitätssicherung manuelle Testfälle ableiten können.
 
 ### Akzeptanzkriterien
 
 Oftmals werden solche User Stories um sogenannte _Akzeptanzkriterien_ ergänzt. Diese müssen unbedingt erfüllt sein, damit eine User Story als umgesetzt bzw. abgeschlossen gilt. Diese Akzeptanzkriterien können als Vorlagen für automatische und manuelle Testfälle dienen.
 
-Beispiel (zur obigen User Story):
+Beispiele (zur obigen User Story):
 
 - Die Speichernachfrage soll als modaler Dialog erscheinen. Der Benutzer muss eine Entscheidung treffen, damit er die Anwendung weiterverwenden kann.
 - Wurde die Datei bisher noch nicht abgespeichert, soll der "Speichern Unter"-Dialog angezeigt werden, damit der Benutzer einen Dateinamen auswählen kann.
@@ -39,7 +39,7 @@ Beispiel (zur obigen User Story):
 
 ### Story Points
 
-User Stories werden anhand ihres geschätzten Umsetzungsaufwands in verschiedene Grössenkategorien eingeordnet. Gebräuchlich sind sogenannte _Story Points_ oder _Story-Punkte_, die meistens einer Fibonacci-Reihe folgen: 1, 2, 3, 5, 8, 13. Weniger gebräuchlich sind sogenannte "T-Shirt-Grössen" zur Bezeichnung des Umsetzungsaufwands: XS, S, M, L, XL.
+User Stories werden anhand ihres geschätzten Umsetzungsaufwands in verschiedene Grössenkategorien eingeordnet. Gebräuchlich sind sogenannte _Story Points_ oder _Story-Punkte_, die meistens einer Fibonacci-Reihe folgen: 1, 2, 3, 5, 8, 13. Weniger gebräuchlich sind sogenannte _T-Shirt-Grössen_ zur Bezeichnung des Umsetzungsaufwands: (XS), S, M, L, (XL).
 
 Story Points haben den Vorteil, dass man mit ihnen rechnen kann. So kann eine sehr grosse Story mit 13 Punkten in zwei Stories mit 5 bzw. 8 aufgeteilt werden.
 
@@ -55,8 +55,12 @@ _Planning Poker_ bezeichnet eine Technik, womit sichergestellt werden kann, dass
 
 - nummerierte Karten: 0, 1, 2, 3, 5 usw. (Anzahl Storypunkte)
 - :infinity: unendlich (die Story ist zu gross für eine Einschätzung)
-- ?: unklar (die Story ist zu wenig gut definiert für eine Schätzung)
+- :question: unklar (die Story ist zu wenig gut definiert für eine Schätzung)
 - :coffee: Pause (das Teammitglied hält eine Pause für angebracht)
+
+Ein solches Set sieht beispielsweise folgendermassen aus:
+
+![Planning-Poker-Set](/img/planning-poker.png)
 
 Die User Stories werden der Reihe nach vorgelesen, worauf sich alle Anwesenden ihre Gedanken über sie machen können. Jedes Mitglied gibt nun verdeckt einen Tipp ab, indem es die dazu passende Karte verdeckt vor sich auf den Tisch legt. Wenn alle Mitglieder bereit sind, werden alle Karten gleichzeitig umgedreht.
 
@@ -67,7 +71,7 @@ Nun wird geprüft, ob ein Konsens erreicht worden ist:
 - Weisen mehrere Karten das Symbol :infinity: auf, muss die Story aufgeteilt und in einer späteren Sitzung erneut geschätzt werden.
 - Weisen mehrere Karten das Symbol :coffee: auf, sollte eine Pause eingelegt werden. (Siehe auch das Phänomen der [Entscheidungsmüdigkeit](https://karrierebibel.de/entscheidungsmuedigkeit/))
 
-Nicht immer kann ein Konsens gefunden werden. Vielleicht weiss ein Teammitglied mehr als die anderen und ist sich sicher, dass eine Story sehr bzw. überhaupt nicht aufwändig ist. Können die unterschiedlichen Ansichten nicht in miteinander in Einklang gebracht werden, wäre es wohl sinnvoller, die Story zu einem späteren Zeitpunkt erneut zu verhandeln. Die Zeit bis dahin sollte genutzt werden, um mögliche Unklarheiten über die betreffende Story auszuräumen (Rücksprache mit dem Auftraggeber, technische Abklärungen).
+Nicht immer kann ein Konsens gefunden werden. Vielleicht weiss ein Teammitglied mehr als die anderen und ist sich sicher, dass eine Story sehr bzw. überhaupt nicht aufwändig ist. Können die unterschiedlichen Ansichten nicht miteinander in Einklang gebracht werden, wäre es wohl sinnvoller, die Story zu einem späteren Zeitpunkt erneut zu verhandeln. Die Zeit bis dahin sollte genutzt werden, um mögliche Unklarheiten über die betreffende Story auszuräumen (Rücksprache mit dem Auftraggeber, technische Abklärungen).
 
 Planning-Poker-Sets können in diversen Online-Shops für ca. CHF 20.- erworben werden. Es stehen auch virtuelle Umsetzungen wie z.B. [Planning Poker Online](https://planningpokeronline.com/) zur Verfügung.
 
@@ -109,3 +113,5 @@ Hören Sie sich die Aufzeichnung ([MP3](/audio/warenkorb.mp3), [Opus](/audio/war
 Formulieren Sie für die darin geäusserten Anforderungen User Stories inkl. Akzeptanzkriterien. Die Anforderungen sollen möglichst vollständig in ca. 5 User Stories festgehalten werden. Beachten Sie hierzu auch die Einhaltung der Invest-Kriterien.
 
 Unklarheiten sollen als Fragen zu den jeweiligen User Stories festgehalten werden.
+
+Schätzen Sie die Story-Grössen relativ zueinander ein. Führen Sie hierzu ein Planning Poker mit ihren Mitschülern durch.
