@@ -47,6 +47,12 @@ Dieser Vorteil kann aber auch zu einem Nachteil werden, denn durch die Zahl ger�
 
 T-Shirt-Grössen haben den Vorteil, dass sie den Unsicherheitsfaktor wahrheitsgetreu wiedergeben und man (bzw. Manager) nicht in Versuchung geraten, damit zu rechnen.
 
+#### Planning Poker
+
+TODO: beschreiben
+
+Für Übung: [Planning Poker Online](https://planningpokeronline.com/)
+
 ### Nutzen
 
 User Stories haben nicht nur eine Grösse, die sich anhand ihres Aufwands bemisst, sondern auch einen Nutzen. Dieser wird meist in den Stufen _hoch_, _mittel_ und _tief_ angegeben. Der Nutzen wird aus der Perspektive des Product Owners beschrieben: Wie wichtig ist es dieser Person, dass eine Funktionalität umgesetzt wird?
