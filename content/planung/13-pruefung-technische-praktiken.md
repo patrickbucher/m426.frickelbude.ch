@@ -1,6 +1,7 @@
 +++
 date = '2025-05-29T13:39:42+02:00'
 title = 'Block 13: Prüfung Technische Praktiken'
+weight = 13
 +++
 
 Im dreizehnten Block legen wir die Prüfung zu den technischen Praktiken ab. Im Anschluss starten wir ins neue Thema, indem wir uns ein konkretes agiles Vorgehensmodell anschauen: Scrum.

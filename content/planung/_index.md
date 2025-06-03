@@ -22,3 +22,4 @@ weight = 2
 - [Block 11](11-refactoring/): Refactoring
 - [Block 12](12-design-patterns/): Design Patterns
 - [Block 13](13-pruefung-technische-praktiken/): Prüfung technische Praktiken
+- [Block 14](14-user-stories/): User Stories
