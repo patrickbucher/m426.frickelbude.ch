@@ -22,7 +22,7 @@ weight = 3
     - Kapitel 3.1.4 _Story-Schätzung_
 
 
-## Geschäfts- und teamorientierte agile Praktiken
+## Geschäfts- und teamorientierte Praktiken
 
 1. Sie können den Aufbau und die wichtigsten Phasen des Wasserfallmodells wiedergeben.
 1. Sie die Probleme bei der Arbeit mit dem Wasserfallmodell benennen.
