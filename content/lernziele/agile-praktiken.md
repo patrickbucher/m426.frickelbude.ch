@@ -25,7 +25,7 @@ weight = 3
 ## Geschäfts- und teamorientierte Praktiken
 
 1. Sie können den Aufbau und die wichtigsten Phasen des Wasserfallmodells wiedergeben.
-1. Sie die Probleme bei der Arbeit mit dem Wasserfallmodell benennen.
+1. Sie können die Probleme bei der Arbeit mit dem Wasserfallmodell benennen.
 1. Sie können den Zielkonflikt "gut, schnell, günstig: wähle zwei" visuell darstellen und Beispiele für die drei möglichen Kompromisse benennen.
 1. Sie können das Konzept der Velocity erklären und wissen, warum diese steigen oder sinken kann.
 1. Sie wissen, was ein _Burn Down Chart_ aufzeigt.
