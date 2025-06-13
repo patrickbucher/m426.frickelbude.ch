@@ -23,3 +23,4 @@ weight = 2
 - [Block 12](12-design-patterns/): Design Patterns
 - [Block 13](13-pruefung-technische-praktiken/): Prüfung technische Praktiken
 - [Block 14](14-user-stories/): User Stories
+- [Block 15](15-business-teamorientierte-praktiken/): Business- und teamorientierte Praktiken
