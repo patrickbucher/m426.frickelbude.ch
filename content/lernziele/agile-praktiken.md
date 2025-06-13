@@ -35,7 +35,7 @@ weight = 3
 
 ### Unterlagen
 
-- Folien _Agile_ ("Geschäfts- und teamorientierte agile Praktiken")
+- Folien _Business- und teamorientierte Praktiken_
 - Clean Agile (ergänzend):
     - Kapitel 1.4 _Ein Wasserfall-Projekt_
     - Kapitel 3.1 _Planung_
