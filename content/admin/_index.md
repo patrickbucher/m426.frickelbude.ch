@@ -43,6 +43,8 @@ Im Schulzimmer...
 
 ### Regeln im Unterricht (Vorgabe der Lehrperson)
 
+- Im Schulzimmer herrscht Du-Kultur. Das Siezen ist aber nicht verboten.
+
 #### Elektronische Geräte
 
 Lernende...
