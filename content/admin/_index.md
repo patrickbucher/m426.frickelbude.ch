@@ -52,7 +52,7 @@ Lernende...
 - verwenden keine Lautsprecher im Schulzimmer, auch nicht während Pausen.
 - _verstauen das Smartphone_ während des Unterrichts, sodass es _nicht sichtbar_ ist.
 - können das Smartphone zwecks _Zwei-Faktor-Authentifizierung_ hervornehmen und verwenden.
-- dürfen sich _während längerer Übungsphasen_ (ab 20 min) _Musik per Kopfhörer_ anhören.
+- dürfen sich _während längerer Übungsphasen_ (ab 20 min.) _Musik per Kopfhörer_ anhören.
     - Dies ist kein Grund dafür, sich während dieser Zeit ständig mit dem Smartphone zu beschäftigen!
     - Tipp: vor der Lektion eine _Playlist_ zum konzentrierten Arbeiten anlegen.
     - Ausserhalb dieser Phasen werden die Kopfhörer verstaut und sind nicht sichtbar.
@@ -65,25 +65,33 @@ Lernende...
     - dringendes Telefonat mit dem Lehrbetrieb, mit einer Gesundheitseinrichtung oder mit einem Amt
     - plötzlich auftretende gesundheitliche Probleme
 - Lernende hinterlassen einen ordentlichen und sauberen Arbeitsplatz und schieben den Stuhl zu.
+- Lernende halten sich nicht unbeaufsichtigt in Schulzimmern auf.
 
 #### Zuwiderhandlungen
 
-- Als Lehrperson setze ich diese Regeln durch und dokumentiere Zuwiderhandlungen als Beobachtungen.
-- Als Lehrperson verwarne ich die Lernenden bei Zuwiderhandlungen.
-- Als Lehrperson verweise ich die Lernenden bei wiederholter Zuwiderhandlung aus dem Unterricht.
+Als Lehrperson...
+
+- setze ich diese Regeln durch und dokumentiere Zuwiderhandlungen als Beobachtungen.
+- verwarne ich die Lernenden bei Zuwiderhandlungen.
+- verweise ich die Lernenden bei wiederholter oder grober Zuwiderhandlung aus dem Unterricht.
+- melde ich wiederholte oder grobe Zuwiderhandlungen der Klassenlehrperson.
+- Als Klassenlehrperson melde ich wiederholte oder grobe Zuwinderhandlung dem Lehrbetrieb.
 
 ## Absenzwesen
 
-### Verspätungen
+### Verspätung
 
 - Lernende melden sich bei Verspätungen vorab per Teams bei der Lehrperson.
 - Als Lehrperson halte ich die Verspätung fest.
 
 ### Abmeldung
 
-- Lernende melden sich bei _ganztätigen Absenzen_ beim _Sekretariat_ ab.
-- Lernende melden sich bei _kürzeren Absenzen_ bei mir als Lehrperson _per Teams_ ab.
-- Lernende entschuldigen die Absenz innert drei erneuten Unterrichtsbesuchen.
+Lernende
+
+- melden sich bei _ganztätigen Absenzen_ beim _Sekretariat_ ab.
+- melden sich bei _kürzeren Absenzen_ bei mir als Lehrperson _per Teams_ ab.
+- entschuldigen die Absenz innert drei erneuten Unterrichtsbesuchen.
+- Als Lehrperson dokumentiere ich nicht bzw. falsch erfolgte Abmeldungen angemessen.
 
 ### Entschuldigung
 
@@ -91,4 +99,4 @@ Lernende...
 - Als Lehrperson...
     - _entschuldige_ ich die Absenz und _visiere_ das Entschuldigungsformular, wenn es mir _ausgedruckt vorgelegt_ wird.
     - _entschuldige_ ich die Absenz, wenn das Entschuldigungsformular _per E-Mail zugesandt_ wird.
-    - _ignoriere_ ich Entschuldigungsformulare, die mir _per Teams_ zugestellt werden.
+    - _ignoriere_ ich das Entschuldigungsformular, wenn es mir _per Teams_ zugestellt wird.
