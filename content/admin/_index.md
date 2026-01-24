@@ -17,8 +17,8 @@ weight = 1
 1. Als Lehrperson erteile ich _persönliche Rückmeldungen_ zu _selber ausgeführten_ Arbeiten.
 1. Als Lehrperson erteile ich _keine Rückmeldungen_ zu _KI-generierten_ Arbeiten.
 1. Auf _verpflichtende Abgaben_ erteile ich eine _persönliche Rückmeldung_. Daraus folgt:
-    - **Verpflichtende Abgaben werden ohne KI-Werkzeuge erstellt.**
-    - Persönliche Rückmeldungen werden nur für selber ausgeführte Arbeiten erfragt.
+    - **Lernende erstellen verpflichtende Abgaben ohne KI-Werkzeuge.**
+    - Lernende erfragen persönliche Rückmeldungen nur für selber ausgeführte Arbeiten.
 1. Lernende informieren die Lehrperson _vor Ablauf der Abgabefrist_, wenn eine Abgabe sich verzögert.
     - Als Lehrperson behalte ich es mir vor, unbegründet verspätet erfolgte Abgaben zu ignorieren.
 
@@ -37,68 +37,68 @@ weight = 1
 
 Im Schulzimmer...
 
-- darf nicht gegessen werden. Nahrungsmittel sind verstaut und nicht sichtbar.
-- sind nur Getränke in wiederverschliessbaren Behältern erlaubt.
-- sind keine Rauschmittel (illegale Drogen, Alkohol, Tabakprodukte) erlaubt.
+1. darf nicht gegessen werden. Nahrungsmittel sind verstaut und nicht sichtbar.
+1. sind nur Getränke in wiederverschliessbaren Behältern erlaubt.
+1. sind keine Rauschmittel (illegale Drogen, Alkohol, Tabakprodukte) erlaubt.
+1. halten sich keine Lernenden unbeaufsichtigt auf.
 
 ### Regeln im Unterricht (Vorgabe der Lehrperson)
 
-- Im Schulzimmer herrscht Du-Kultur. Das Siezen ist aber nicht verboten.
+- Im Schulzimmer herrscht Du-Kultur. Das Siezen ist selbstverständlich auch erlaubt.
 
 #### Elektronische Geräte
 
 Lernende...
 
-- klappen ihre Laptops komplett zu, wenn ich das als Lehrperson phasenweise verlange.
-- verwenden den Laptop während des Unterrichts als reines Arbeitsgerät.
-- verwenden keine Lautsprecher im Schulzimmer, auch nicht während Pausen.
-- _verstauen das Smartphone_ während des Unterrichts, sodass es _nicht sichtbar_ ist.
-- können das Smartphone zwecks _Zwei-Faktor-Authentifizierung_ hervornehmen und verwenden.
-- dürfen sich _während längerer Übungsphasen_ (ab 20 min.) _Musik per Kopfhörer_ anhören.
+1. klappen ihre Laptops komplett zu, wenn ich das als Lehrperson phasenweise verlange.
+1. verwenden den Laptop während des Unterrichts als reines Arbeitsgerät.
+1. verwenden keine Lautsprecher im Schulzimmer, auch nicht während Pausen.
+1. _verstauen das Smartphone_ während des Unterrichts, sodass es _nicht sichtbar_ ist.
+1. können das Smartphone zwecks _Zwei-Faktor-Authentifizierung_ hervornehmen und verwenden.
+1. dürfen sich _während längerer Übungsphasen_ (ab 20 min.) _Musik per Kopfhörer_ anhören.
     - Dies ist kein Grund dafür, sich während dieser Zeit ständig mit dem Smartphone zu beschäftigen!
     - Tipp: vor der Lektion eine _Playlist_ zum konzentrierten Arbeiten anlegen.
     - Ausserhalb dieser Phasen werden die Kopfhörer verstaut und sind nicht sichtbar.
 
 #### Verlassen des Schulzimmers
 
-- Als Lehrperson weiss ich jederzeit, wo sich welche Lernenden befinden.
-- Lernende melden sich bei der Lehrperson, bevor sie das Schulzimmer verlassen, und begründen dies folgendermassen:
-    - WC-Besuch (nach Möglichkeit vor oder nach dem Unterricht zu erledigen)
-    - dringendes Telefonat mit dem Lehrbetrieb, mit einer Gesundheitseinrichtung oder mit einem Amt
-    - plötzlich auftretende gesundheitliche Probleme
-- Lernende hinterlassen einen ordentlichen und sauberen Arbeitsplatz und schieben den Stuhl zu.
-- Lernende halten sich nicht unbeaufsichtigt in Schulzimmern auf.
+1. Als Lehrperson weiss ich jederzeit, wo sich welche Lernenden befinden.
+1. Lernende melden sich bei der Lehrperson, bevor sie das Schulzimmer verlassen, und begründen dies folgendermassen:
+    1. WC-Besuch (nach Möglichkeit vor oder nach dem Unterricht zu erledigen)
+    1. dringendes Telefonat mit dem Lehrbetrieb, mit einer Gesundheitseinrichtung oder mit einem Amt
+    1. plötzlich auftretende gesundheitliche Probleme
+1. Lernende hinterlassen einen ordentlichen und sauberen Arbeitsplatz und schieben den Stuhl zu.
 
 #### Zuwiderhandlungen
 
 Als Lehrperson...
 
-- setze ich diese Regeln durch und dokumentiere Zuwiderhandlungen als Beobachtungen.
-- verwarne ich die Lernenden bei Zuwiderhandlungen.
-- verweise ich die Lernenden bei wiederholter oder grober Zuwiderhandlung aus dem Unterricht.
-- melde ich wiederholte oder grobe Zuwiderhandlungen der Klassenlehrperson.
-- Als Klassenlehrperson melde ich wiederholte oder grobe Zuwinderhandlung dem Lehrbetrieb.
+1. setze ich diese Regeln durch und dokumentiere Zuwiderhandlungen als Beobachtungen.
+1. verwarne ich die Lernenden bei Zuwiderhandlungen.
+1. verweise ich die Lernenden bei wiederholter oder grober Zuwiderhandlung aus dem Unterricht.
+1. melde ich wiederholte oder grobe Zuwiderhandlungen der Klassenlehrperson.
+1. Als Klassenlehrperson melde ich wiederholte oder grobe Zuwinderhandlung dem Lehrbetrieb.
 
-## Absenzwesen
+## Absenzwesen (nur Regelklassen)
 
 ### Verspätung
 
-- Lernende melden sich bei Verspätungen vorab per Teams bei der Lehrperson.
-- Als Lehrperson halte ich die Verspätung fest.
+1. Lernende melden sich bei Verspätungen vorab per Teams bei der Lehrperson.
+1. Als Lehrperson halte ich die Verspätung fest.
 
 ### Abmeldung
 
 Lernende
 
-- melden sich bei _ganztätigen Absenzen_ beim _Sekretariat_ ab.
-- melden sich bei _kürzeren Absenzen_ bei mir als Lehrperson _per Teams_ ab.
-- entschuldigen die Absenz innert drei erneuten Unterrichtsbesuchen.
-- Als Lehrperson dokumentiere ich nicht bzw. falsch erfolgte Abmeldungen angemessen.
+1. melden sich bei _ganztätigen Absenzen_ beim _Sekretariat_ ab.
+1. melden sich bei _kürzeren Absenzen_ bei mir als Lehrperson _per Teams_ ab.
+1. entschuldigen die Absenz innert drei erneuten Unterrichtsbesuchen.
+1. Als Lehrperson dokumentiere ich nicht bzw. falsch erfolgte Abmeldungen angemessen.
 
 ### Entschuldigung
 
-- Lernende legen dem Berufsbildner das Entschuldigungsformular vor, um ihn über das Fernbleiben zu informieren.
-- Als Lehrperson...
-    - _entschuldige_ ich die Absenz und _visiere_ das Entschuldigungsformular, wenn es mir _ausgedruckt vorgelegt_ wird.
-    - _entschuldige_ ich die Absenz, wenn das Entschuldigungsformular _per E-Mail zugesandt_ wird.
-    - _ignoriere_ ich das Entschuldigungsformular, wenn es mir _per Teams_ zugestellt wird.
+1. Lernende legen dem Berufsbildner das Entschuldigungsformular vor, um ihn über das Fernbleiben zu informieren.
+1. Als Lehrperson...
+    1. _entschuldige_ ich die Absenz und _visiere_ das Entschuldigungsformular, wenn es mir _ausgedruckt vorgelegt_ wird.
+    1. _entschuldige_ ich die Absenz, wenn das Entschuldigungsformular _per E-Mail zugesandt_ wird.
+    1. _ignoriere_ ich das Entschuldigungsformular, wenn es mir _per Teams_ zugestellt wird.
