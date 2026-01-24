@@ -16,7 +16,7 @@ Ihr wisst, was in diesem Modul auf euch zukommt.
 
 - [10 min.] informeller Einstieg: [Manifesto for Agile Software Development](https://agilemanifesto.org/)
 - [5 min.] Tagesplanung
-- [15 min.] [Regeln](/admin/)
+- [15 min.] Besprechung der [Regeln](/admin/)
 - [15 min.] Umfrage zum Vorwissen
 
 ### Lektion 2
