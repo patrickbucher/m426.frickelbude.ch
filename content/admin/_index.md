@@ -8,7 +8,7 @@ weight = 1
 
 ### Aufgaben
 
-1. Im Unterricht _üben_ und wir die Fähigkeiten der agilen Softwareentwicklung.
+1. Im Unterricht _üben_ wir die Fähigkeiten der agilen Softwareentwicklung.
 1. Die Lernenden sind zum _Bearbeiten_ der erteilten Aufgaben _verpflichtet_.
 1. Die Abgabe der Ergebnisse ist bei manchen Aufgaben _freiwillig_, bei anderen _Pflicht_.
 
@@ -25,29 +25,34 @@ weight = 1
 ### Arbeitshaltung
 
 1. Die Lernenden sind für ihren _Lernprozess selber verantwortlich_ (Prädikat: _eigenverantwortliches Arbeiten_).
-1. Die Lernenden müssen sich selber ihres _Arbeitsfortschritts bewusst_ sein.
-1. Als Lehrperson _halte_ ich meine _Einschätzung_ und _Eindrücke_ des Arbeitsfortschritts der Lernenden _fest_.
-1. Als Lehrperson bzw. Klassenlehrperson _melde_ ich Ende Semester meine Einschätzung der _Klassenlehrperson_ bzw. der _Notenkonferenz_.
-1. Als Lehrperson erlaube ich mir das Übersteuern der arithmetischen Notenrundung aufgrund meiner begründeten Eindrücke.
+1. Die Lernenden müssen sich selber ihres _Arbeitsverhaltens bewusst_ sein (Selbstreflexion).
+1. Als Lehrperson _halte_ ich meine _Einschätzung_ und _Eindrücke_ zum Arbeitsverhalten der Lernenden _fest_.
+1. Als Lehrperson _melde_ ich Ende Semester meine Einschätzung der _Klassenlehrperson_.
+1. Als Klassenlehrperson _melde_ ich Ende Semester meine Einschätzung der _Notenkonferenz_.
+1. Als Lehrperson erlaube ich mir das Übersteuern der Notenrundung aufgrund meiner begründeten Eindrücke.
 
 ## Regeln zum Verhalten im Schulzimmer
 
 ### Hausordnung (Vorgabe der Schule)
 
-- Im Schulzimmer darf nicht gegessen werden. Nahrungsmittel sind verstaut und nicht sichtbar.
-- Im Schulzimmer sind nur Getränke in wiederverschliessbaren Behältern erlaubt.
-- Im Schulzimmer sind keine Rauschmittel (illegale Drogen, Alkohol, Tabakprodukte) erlaubt.
+Im Schulzimmer...
+
+- darf nicht gegessen werden. Nahrungsmittel sind verstaut und nicht sichtbar.
+- sind nur Getränke in wiederverschliessbaren Behältern erlaubt.
+- sind keine Rauschmittel (illegale Drogen, Alkohol, Tabakprodukte) erlaubt.
 
 ### Regeln im Unterricht (Vorgabe der Lehrperson)
 
-#### Laptops, Smartphones und Musik
+#### Elektronische Geräte
 
-- Lernende klappen ihre Laptops komplett zu, wenn ich das als Lehrperson phasenweise verlange.
-- Lernende verwenden den Laptop während des Unterrichts als reines Arbeitsgerät.
-- Lernende verwenden keine Lautsprecher im Schulzimmer, auch nicht während Pausen.
-- Lernende _verstauen das Smartphone_ während des Unterrichts, sodass es _nicht sichtbar_ ist.
-- Lernende können das Smartphone zwecks _Zwei-Faktor-Authentifizierung_ hervornehmen und verwenden.
-- Lernende dürfen sich _während längerer Übungsphasen_ (ab 20 min) _Musik per Kopfhörer_ anhören.
+Lernende...
+
+- klappen ihre Laptops komplett zu, wenn ich das als Lehrperson phasenweise verlange.
+- verwenden den Laptop während des Unterrichts als reines Arbeitsgerät.
+- verwenden keine Lautsprecher im Schulzimmer, auch nicht während Pausen.
+- _verstauen das Smartphone_ während des Unterrichts, sodass es _nicht sichtbar_ ist.
+- können das Smartphone zwecks _Zwei-Faktor-Authentifizierung_ hervornehmen und verwenden.
+- dürfen sich _während längerer Übungsphasen_ (ab 20 min) _Musik per Kopfhörer_ anhören.
     - Dies ist kein Grund dafür, sich während dieser Zeit ständig mit dem Smartphone zu beschäftigen!
     - Tipp: vor der Lektion eine _Playlist_ zum konzentrierten Arbeiten anlegen.
     - Ausserhalb dieser Phasen werden die Kopfhörer verstaut und sind nicht sichtbar.
@@ -61,7 +66,7 @@ weight = 1
     - plötzlich auftretende gesundheitliche Probleme
 - Lernende hinterlassen einen ordentlichen und sauberen Arbeitsplatz und schieben den Stuhl zu.
 
-#### Zuwiderhanlungen
+#### Zuwiderhandlungen
 
 - Als Lehrperson setze ich diese Regeln durch und dokumentiere Zuwiderhandlungen als Beobachtungen.
 - Als Lehrperson verwarne ich die Lernenden bei Zuwiderhandlungen.
