@@ -21,7 +21,8 @@ Ihr wisst, was in diesem Modul auf euch zukommt.
 
 ### Lektion 2
 
-- [45 min.] Das Wasserfallmodell: Eine Karikatur als Feindbild
+- [5 min.] Semesterplanung
+- [40 min.] Das Wasserfallmodell: Eine Karikatur als Feindbild
 
 ## Hausaufgaben
 
