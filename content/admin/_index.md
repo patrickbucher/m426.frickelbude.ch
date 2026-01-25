@@ -15,7 +15,7 @@ weight = 1
 ### Rückmeldungen
 
 1. Als Lehrperson erteile ich _persönliche Rückmeldungen_ zu _selber ausgeführten_ Arbeiten.
-1. Als Lehrperson erteile ich _keine Rückmeldungen_ zu _KI-generierten_ Arbeiten.
+1. Als Lehrperson erteile ich _keine Rückmeldungen_ zu _KI-generierten_ Arbeiten oder Plagiaten.
 1. Auf _verpflichtende Abgaben_ erteile ich eine _persönliche Rückmeldung_. Daraus folgt:
     - **Lernende erstellen verpflichtende Abgaben ohne KI-Werkzeuge.**
     - Lernende erfragen persönliche Rückmeldungen nur für selber ausgeführte Arbeiten.
