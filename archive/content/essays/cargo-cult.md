@@ -101,7 +101,7 @@ Doch Melanie ist selbstsicher und gibt das jetzt einfach mal als Standard vor!
     - Bei Glücksspielen wie Lotto, weil man nur die Gewinner sieht.
     - Beim Sport durch das Übernehmen irrelevanter Handlungsmuster.
 4. Wie erkennt man, ob man selber einem _Cargo Cult_ folgt?
-    - Kann man den Vorteil der neuen Lösung ‒ anderen und sich selber ‒ erklären ?
+    - Kann man den Vorteil der neuen Lösung ‒ anderen und sich selber ‒ erklären?
     - Kann die Verbesserung anhand objektiver und messbarer Kriterien
       nachgewiesen werden?
     - Reagiert man emotional auf kritische Rückfragen?
