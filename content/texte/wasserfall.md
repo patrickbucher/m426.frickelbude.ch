@@ -1,6 +1,6 @@
 +++
 date = '2026-01-25T10:43:17+01:00'
-title = 'Das Wasserfall-Modell'
+title = 'Das Wasserfallmodell'
 weight = 1
 +++
 
@@ -23,7 +23,6 @@ In seinem Vortrag [Preventing the Collapse of Civilization](https://www.youtube.
 
 Software Engineering als Disziplin scheint in einer permanenten Krise zu sein.
 {{% /expand %}}
-
 
 ## Winston Royce und sein Wasserfall-Artikel
 
@@ -111,14 +110,21 @@ Die Befürworter agiler Methoden kritisieren das Wasserfallmodell oft aus folgen
 Das Wasserfallmodell...
 
 1. bietet keinen Feedback-Mechanismus; der Kunde ist nicht involviert.
-    - Lösung: kurze, iterative Entwicklungsphasen
+    - agile Lösung: kurze, iterative Entwicklungsphasen
 2. ist zu dokumentlastig; der Kunde will Software und keine Dokumente.
-    - Lösung: dem Kunden laufende Software zeigen
+    - agile Lösung: dem Kunden laufende Software zeigen
 3. basiert auf Anforderungen; der Kunde weiss gar nicht, was er will.
-    - Lösung: ständiger Austausch mit dem Kunden
+    - agile Lösung: ständiger Austausch mit dem Kunden
 4. erfordert viel Design-Arbeit; dies führt zu _Over-Engineering_.
-    - Lösung: Anforderungen möglichst einfach umsetzen und durch Refactoring verbessern
+    - agile Lösung: Anforderungen möglichst einfach umsetzen und durch Refactoring verbessern
 5. hat einen katastrophalen Leistungsausweis; wir haben eine _Software-Krise_.
-    - Lösung: wir werfen alles über Board und fangen _agil_ an zu entwickeln.
+    - agile Lösung: wir werfen alles über Board und fangen _agil_ an zu entwickeln.
 
-**Frage**: Ist diese Kritik berechtigt?
+
+{{% expand title="Ist diese Kritik gerechtfertigt?" %}}
+1. Royce bespricht das Feedback-Problem in seinem Artikel ausführlich. Der Kunde soll explizit im Projektverlauf eingebunden sein.
+2. Das Wasserfallmodell ist sehr dokumentlastig. Royce argumentiert, dass der Kunde von diesen Dokumenten indirekt profitiert.
+3. Der Kunde kann nach erfolgter Design-Phase überprüfen, ob seine Anforderungen richtig umgesetzt werden sollen.
+4. Ein gutes Design kann viele andere Probleme ersparen. Das nachträgliche Ändern von Software war 1970 wesentlich komplizierter.
+5. Das Wasserfallmodell wurde oft falsch verstanden und eingesetzt. Wir haben trotz agiler Softwareentwicklung immer noch eine Software-Krise.
+{{% /expand %}}

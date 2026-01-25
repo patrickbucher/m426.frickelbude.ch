@@ -22,9 +22,11 @@ Ihr wisst, was in diesem Modul auf euch zukommt.
 ### Lektion 2
 
 - [5 min.] Semesterplanung
-- [40 min.] Das Wasserfallmodell: Eine Karikatur als Feindbild
+- [5 min.] Betrachtung der [Lernziele](/lernziele/einstieg-versionskontrolle/index.html#einstieg)
+- [25 min.] [Das Wasserfallmodell](/texte/wasserfall): Eine Karikatur als Feindbild
+- [10 min.] Repetition der [Lernziele](/lernziele/einstieg-versionskontrolle/index.html#einstieg)
 
 ## Hausaufgaben
 
 - Lies die [Regeln](/admin/) erneut durch und stelle per Teams allfällige Fragen dazu.
-- TODO: etwas zum Wasserfallmodell?
+- Bearbeite den Teams-Auftrag zum Thema "Entwicklungsmodell im Lehrbetrieb"
