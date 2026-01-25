@@ -3,4 +3,4 @@ date = '2026-01-24T09:21:33+01:00'
 title = 'Software mit agilen Methoden entwickeln'
 +++
 
-![Der _Circle of Life_ agiler Praktiken](/pics/circle-of-life.png)
+![Der _Circle of Life_ agiler Praktiken](/images/circle-of-life.png)
