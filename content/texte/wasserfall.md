@@ -120,7 +120,6 @@ Das Wasserfallmodell...
 5. hat einen katastrophalen Leistungsausweis; wir haben eine _Software-Krise_.
     - agile Lösung: wir werfen alles über Board und fangen _agil_ an zu entwickeln.
 
-
 {{% expand title="Ist diese Kritik gerechtfertigt?" %}}
 1. Royce bespricht das Feedback-Problem in seinem Artikel ausführlich. Der Kunde soll explizit im Projektverlauf eingebunden sein.
 2. Das Wasserfallmodell ist sehr dokumentlastig. Royce argumentiert, dass der Kunde von diesen Dokumenten indirekt profitiert.
