@@ -4,6 +4,27 @@ title = 'Das Wasserfall-Modell'
 weight = 1
 +++
 
+## Hintergrund: Die (ewige) Software-Krise
+
+Die Informatik ist eine noch recht junge Wissenschaft. Der produktive Einsatz von _elektronischen_ Rechanmaschinen geht auf die Zeit des Zweiten Weltkriegs zurück, als Alan Turing mit seinem Team die Enigma-Verschlüsselung der Achsenmächte mithilfe von einem Computer knackte. In der Nachkriegszeit wurden Computer dann vermehrt für friedliche Zwecke eingesetzt, beispielsweise bei Banken und Versicherungen, aber auch in der Raumfahrt.
+
+Die Projekte wurden immer ambitionierter, die Werkzeuge (Programmiersprachen wie COBOL und Fortran) und Methoden waren aber noch nicht sehr ausgereift. Man wähnte sich Ende der 1960er-Jahre in der _Software-Krise_. Edsger W. Dijkstra, der die Software-Krise mithilfe der strukturierten Programmierung bewältigen wollte, berichtet ein anschauliches Beispiel von der NATO-Konferenz 1969: Ein [Software-Fehler im Apollo-Programm](/videos/software-crisis.mp4) (Quelle: [Edsger W. Dijkstra Archive](https://www.cs.utexas.edu/~EWD/video-audio/video-audio.html)), der nur zufälligerweise entdeckt worden ist, und sonst drei Astronauten das Leben gekostet hätte.
+
+Trotz strukturierter (und später: objektorientierter) Programmierung und planmässigerem Vorgehen beim Programmieren scheiterten weiterhin viele Software-Projekte. Ca. 40 Jahre nach dieser NATO-Konferenz schreiben Ken Schwaber und Jeff Sutherland, die Autoren des _Scrum Guide_, im Einleitungskapitel ihres Buches _Software in 30 Days_ folgendes:
+
+> You have been ill served by the software industry for 40 years—not purposefully, but inextricably. [...] In this part of the book, we investigate why software development has been so bad.
+
+Als Ursache für den schlechten Zustand der Software-Industrie machen die Autoren planmässiges, lineares, dokumentlastiges Vorgehen aus: das _Wasserfallmodell_.
+
+{{% expand title="Wurde die Software-Krise mittlerweile gelöst?" %}}
+Agile Vorgehensweisen wie _Scrum_ haben sich im letzten Vierteljahrhundert immer stärker durchgesetzt. Ist die Software-Krise dadurch gelöst worden?
+
+In seinem Vortrag [Preventing the Collapse of Civilization](https://www.youtube.com/watch?v=ZSRHeXYDLko) von 2019 zeigt der Spieleentwickler Jonathan Blow auf, dass Wissen auch verlorengehen kann, und die Produktivität beim Programmieren rückläufig ist; trotz – oder wegen? – moderner Sprachen, Entwicklungswerkzeugen und Vorgehensmethoden.
+
+Software Engineering als Disziplin scheint in einer permanenten Krise zu sein.
+{{% /expand %}}
+
+
 ## Winston Royce und sein Wasserfall-Artikel
 
 1970 veröffentliche Winston Royce einen Beitrag mit dem Titel _Managing the Development of Large Software Systems_ ([Quelle](https://dl.acm.org/doi/10.5555/41765.41801)). Darin beschrieb er seine Meinung darüber, wie grosse Software-Projekte durchgeführt werden sollten. Diese Meinung basiert auf seinen persönlichen Erfahrungen, die er in Software-Projekten im Bereich Raumfahrt sammeln konnte.
@@ -60,14 +81,44 @@ Angenommen, beim Testen (_Testing_) wird erkannt, dass die Software falsch entwo
 
 In diesem Fall müssen verschiedenste Phasen erneut durchlaufen werden, wodurch die Projektkosten je nach Ausmass des Fehlers sich bereits verdoppeln können.
 
-TODO: Lösungsansatz von Royce in drei Schritten beschreiben
+### Lösungsansatz in fünf Schritten
 
-## Hintergrund: Die (ewige) Software-Krise
+Im Rest seines Artikels beschreibt Royce seinen Lösungsansatz in fünf Schritten:
 
-[Die Software-Krise (NATO-Konferenz 1969)](/videos/software-crisis.mp4) (Quelle: [Edsger W. Dijkstra Archive](https://www.cs.utexas.edu/~EWD/video-audio/video-audio.html))
+1. Schritt: **ein vorläufiges Design**
+    - Zwischen Anforderungsaufnahme und Analyse soll eine weitere Phase eingefügt werden: ein _vorläufiges_ Design (_Preliminary Design_). Auf Basis der Anforderungen soll ein Design ohne vorherige Analyse erarbeitet werden. Dadurch kann der Ressourcenbedarf bereits vor der Analyse grob abgeschätzt werden.
+    - Ziel dieser Phase ist es nicht, ein korrektes Design für die tatsächliche Implementierung zu erreichen, sondern die Machbarkeit und den Ressourcenbedarf des Projekts zu prüfen. Die Erkenntnisse aus dieser Phase sollen in einem Übersichtsdokument zusammengefasst werden, damit alle im Projekt ein gemeinsames Verständnis erhalten.
+1. Schritt: **das Design dokumentieren**
+    - Wie viel soll in einem Software-Projekt dokumentiert werden? _Ziemlich viel_, beantwortet Royce diese Frage und begründet dies folgendermassen:
+        1. Die Kommunikation zwischen Designer, Kunden und Management muss dokumentiert werden, damit man ein gemeinsames Verständnis davon sichern kann. Verbale Kommunikation kann dies nicht leisten.
+        1. In den frühen Phasen _ist_ die Dokumentation das einzige Zwischenprodukt: in Form von Anforderungen, Analyse und Design.
+        1. Der Nutzen einer guten Dokumentation zahlt sich erst in den späteren Phasen: sie erleichtert die Fehleranalyse beim Testen, ermöglicht einen reibungsfreien Betrieb und stellt eine solide Basis für die Weiterentwicklung der Software dar.
+1. Schritt: **alles zweimal machen**
+    - Für ein neuartiges Projekt lohnt es sich, den ersten Viertel bis Drittel der Projektzeit in einen Prototyp zu investieren. Hierbei wird das ganze Vorgehensmodell einmal _im Kleinen_ durchgespielt.
+    - Ein erfahrenes Team mit guter Intuition kann in dieser Pilotphase mögliche Fehlerquellen aufspüren, wertvolle Erfahrungen machen und diese mithilfe einer guten Dokumentation dem Rest des Teams zur Verfügung stellen.
+1. Schritt: **planen, kontrollieren und auswerten**
+    - Die Testphase ist oft die aufwändigste und risikoreichste – und durch Verzögerungen oft zeitlich kritischste. Durch die drei vorherigen Schritte wird das Risiko der Testphase minimiert.
+    - Viele Fehler können in den vorherigen Phasen bereits mithilfe eines Reviews durch eine andere Person entdeckt werden. So können die Fehler bereits vor dem Testen erkannt und korrigiert werden.
+1. Schritt: **den Kunden miteinbeziehen**
+    - Der Kunde soll bereits zu einem frühen Zeitpunkt erneut in das Projekt miteinbezogen werden. Dies soll nicht erst beim Ausliefern der Software erfolgen, sondern bereits nach Abschluss der Design-Phase, um mögliche Missverständnisse vor der Implementierung zu klären. Der Auftragnehmer soll zwischen Anforderungs- und Betriebsphase nicht einfach sich selber überlassen werden.
 
-Ken Schwaber und Jeff Sutherland, die Autoren des _Scrum Guide_, schreiben im Einleitungskapitel ihres Buches _Software in 30 Days_:
+Diese Massnahmen sind zwar aufwändig und kosten Geld, erhöhen aber die Wahrscheinlichkeit für die erfolgreiche Umsetzung des Projekts.
 
-> You have been ill served by the software industry for 40 years—not purposefully, but inextricably. [...] In this part of the book, we investigate why software development has been so bad.
+## Kritik am Wasserfallmodell
 
-In seinem Vortrag [Preventing the Collapse of Civilization](https://www.youtube.com/watch?v=ZSRHeXYDLko) zeigt der Spieleentwickler Jonathan Blow auf, dass Wissen auch verlorengehen kann, und die Produktivität beim Programmieren rückläufig ist; trotz – oder wegen? – moderner Sprachen und Entwicklungswerkzeugen.
+Die Befürworter agiler Methoden kritisieren das Wasserfallmodell oft aus folgenden Gründen:
+
+Das Wasserfallmodell...
+
+1. bietet keinen Feedback-Mechanismus; der Kunde ist nicht involviert.
+    - Lösung: kurze, iterative Entwicklungsphasen
+2. ist zu dokumentlastig; der Kunde will Software und keine Dokumente.
+    - Lösung: dem Kunden laufende Software zeigen
+3. basiert auf Anforderungen; der Kunde weiss gar nicht, was er will.
+    - Lösung: ständiger Austausch mit dem Kunden
+4. erfordert viel Design-Arbeit; dies führt zu _Over-Engineering_.
+    - Lösung: Anforderungen möglichst einfach umsetzen und durch Refactoring verbessern
+5. hat einen katastrophalen Leistungsausweis; wir haben eine _Software-Krise_.
+    - Lösung: wir werfen alles über Board und fangen _agil_ an zu entwickeln.
+
+**Frage**: Ist diese Kritik berechtigt?
