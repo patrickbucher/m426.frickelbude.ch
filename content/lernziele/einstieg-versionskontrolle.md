@@ -7,10 +7,10 @@ weight = 1
 ## Einstieg
 
 - Du kannst den Begriff [_Software-Krise_](/texte/wasserfall/#hintergrund-die-ewige-software-krise) in eigenen Worten erklären.
-- Du kannst die [sieben Schritte des Wasserfallmodells](/texte/wasserfall/#grosse-projekte-viele-schritte) aufzählen.
-- Du kannst das [Hauptproblem des Wasserfallmodells](/texte/wasserfall/#rückmeldungen-aus-folgephasen) erklären.
+- Du kannst die [sieben Schritte des naiven Wasserfallmodells](/texte/wasserfall/#grosse-projekte-viele-schritte) aufzählen.
+- Du kannst das [Hauptproblem des _naiven_ Wasserfallmodells](/texte/wasserfall/#rückmeldungen-aus-folgephasen) erklären.
 - Du kannst die [fünf Schritte zur Lösung dieses Problems](/texte/wasserfall/#lösungsansatz-in-fünf-schritten) aufzählen und erklären.
-- Du kannst zu den [fünf Kritikpunkten am Wasserfallmodell](/texte/wasserfall/#kritik-am-wasserfallmodell) Stellung beziehen.
+- Du kannst zu den [fünf Kritikpunkten am _erweiterten_ Wasserfallmodell](/texte/wasserfall/#kritik-am-wasserfallmodell) Stellung beziehen.
 
 ### Unterlagen
 

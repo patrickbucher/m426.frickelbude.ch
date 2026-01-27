@@ -8,7 +8,7 @@ weight = 1
 
 Die Informatik ist eine noch recht junge Wissenschaft. Der produktive Einsatz von _elektronischen_ Rechanmaschinen geht auf die Zeit des Zweiten Weltkriegs zurück, als Alan Turing mit seinem Team die Enigma-Verschlüsselung der Achsenmächte mithilfe von einem Computer knackte. In der Nachkriegszeit wurden Computer dann vermehrt für friedliche Zwecke eingesetzt, beispielsweise bei Banken und Versicherungen, aber auch in der Raumfahrt.
 
-Die Projekte wurden immer ambitionierter, die Werkzeuge (Programmiersprachen wie COBOL und Fortran) und Methoden waren aber noch nicht sehr ausgereift. Man wähnte sich Ende der 1960er-Jahre in einer _Software-Krise_. Edsger W. Dijkstra, der die Software-Krise mithilfe der strukturierten Programmierung bewältigen wollte, berichtet ein anschauliches Beispiel von der NATO-Konferenz 1969: ein [Software-Fehler im Apollo-Programm](/videos/software-crisis.mp4) (Quelle: [Edsger W. Dijkstra Archive](https://www.cs.utexas.edu/~EWD/video-audio/video-audio.html)), der nur zufälligerweise entdeckt worden ist, und sonst drei Astronauten das Leben gekostet hätte.
+Die Projekte wurden immer ambitionierter, die Werkzeuge (Programmiersprachen wie COBOL und Fortran) und Methoden waren aber noch nicht sehr ausgereift. Man wähnte sich Ende der 1960er-Jahre in einer _Software-Krise_. Edsger W. Dijkstra, der diese Krise mithilfe der strukturierten Programmierung bewältigen wollte, berichtet ein anschauliches Beispiel von der NATO-Konferenz 1969: ein [Software-Fehler im Apollo-Programm](/videos/software-crisis.mp4) (Quelle: [Edsger W. Dijkstra Archive](https://www.cs.utexas.edu/~EWD/video-audio/video-audio.html)), der nur zufälligerweise entdeckt worden ist, und sonst mehreren Astronauten das Leben gekostet hätte.
 
 Trotz strukturierter (und später: objektorientierter) Programmierung und planmässigerem Vorgehen beim Programmieren scheiterten weiterhin viele Software-Projekte. Ca. 40 Jahre nach dieser NATO-Konferenz schreiben Ken Schwaber und Jeff Sutherland, die Autoren des _Scrum Guide_, im Einleitungskapitel ihres Buches _Software in 30 Days_ folgendes:
 
@@ -32,11 +32,11 @@ Die folgenden Abschnitte fassen einige wichtigen Aussagen daraus zusammen.
 
 ### Kleine Projekte, wenige Schritte
 
-Kleine Software-Projekte zeichnen sich dadurch aus, dass ihr Ergebnis oft nur intern oder vom Autor selber verwendet wird. Das Vorgehen ist informell und umfasst zwei Schritte: Analyse (_Analysis_) und Umsetzung (_Coding_):
+Kleine Software-Projekte zeichnen sich dadurch aus, dass ihre Ergebnisse oft nur intern oder vom Autor selber verwendet werden. Das Vorgehen ist informell und umfasst zwei Schritte: Analyse (_Analysis_) und Umsetzung (_Coding_):
 
 ![Der kleine Wasserfall in zwei Schritten](/images/waterfall/wasserfall-2step.svg)
 
-Beide Schritte tragen direkt Ergebnis bei und werden darum auch gerne vom Kunden bezahlt.
+Beide Schritte tragen direkt zum Ergebnis bei und werden darum auch gerne vom Kunden bezahlt.
 
 ### Grosse Projekte, viele Schritte
 
@@ -48,7 +48,7 @@ Für grössere Projekte funktioniert dieses Vorgehen leider nicht. Es sind weite
 
 ![Der grosse Wasserfall in sieben Schritten](/images/waterfall/wasserfall.svg)
 
-Dieses Modell geht davon aus, dass Arbeiten in abgeschlossenen Phasen keine Probleme in Folgephasen verursachen. In der Praxis ist dies oft nicht der Fall.
+Dieses Modell – das _naive_ Wasserfallmodell – geht davon aus, dass Arbeiten in abgeschlossenen Phasen keine Probleme in Folgephasen verursachen. In der Praxis ist dies oft nicht der Fall.
 
 {{% notice title="Ironie der Geschichte" icon="face-rolling-eyes" color="green" %}}
 Kurze Aufmerksamkeitsspannen waren offenbar schon 1970 ein Problem: Viele Manager haben obige Grafik auf Seite zwei im Artikel von Royce gesehen und glaubten, dies sei bereits die fertige Lösung. Auf den weiteren Seiten beschreibt Royce das Problem mit diesem Ansatz. Ironischerweise hat die Software-Industrie _wegen_ dem Artikel von Royce jahrzehntelang genau das gemacht, was Royce darin kritisierte.
@@ -82,7 +82,7 @@ In diesem Fall müssen verschiedenste Phasen erneut durchlaufen werden, wodurch 
 
 ### Lösungsansatz in fünf Schritten
 
-Im Rest seines Artikels beschreibt Royce seinen Lösungsansatz in fünf Schritten:
+Im Rest seines Artikels beschreibt Royce seinen Lösungsansatz – das _erweiterte_ Wasserfallmodell – in fünf Schritten:
 
 1. Schritt: **ein vorläufiges Design**
     - Zwischen Anforderungsaufnahme und Analyse soll eine weitere Phase eingefügt werden: ein _vorläufiges_ Design (_Preliminary Design_). Auf Basis der Anforderungen soll ein Design ohne vorherige Analyse erarbeitet werden. Dadurch kann der Ressourcenbedarf bereits vor der Analyse grob abgeschätzt werden.
@@ -91,12 +91,12 @@ Im Rest seines Artikels beschreibt Royce seinen Lösungsansatz in fünf Schritte
     - Wie viel soll in einem Software-Projekt dokumentiert werden? _Ziemlich viel_, beantwortet Royce diese Frage und begründet dies folgendermassen:
         1. Die Kommunikation zwischen Designer, Kunden und Management muss dokumentiert werden, damit man ein gemeinsames Verständnis davon sichern kann. Verbale Kommunikation kann dies nicht leisten.
         1. In den frühen Phasen _ist_ die Dokumentation das einzige Zwischenprodukt: in Form von Anforderungen, Analyse und Design.
-        1. Der Nutzen einer guten Dokumentation zahlt sich erst in den späteren Phasen: sie erleichtert die Fehleranalyse beim Testen, ermöglicht einen reibungsfreien Betrieb und stellt eine solide Basis für die Weiterentwicklung der Software dar.
+        1. Der Nutzen einer guten Dokumentation zahlt sich erst in den späteren Phasen aus: sie erleichtert die Fehleranalyse beim Testen, ermöglicht einen reibungsfreien Betrieb und stellt eine solide Basis für die Weiterentwicklung der Software dar.
 1. Schritt: **alles zweimal machen**
     - Für ein neuartiges Projekt lohnt es sich, den ersten Viertel bis Drittel der Projektzeit in einen Prototyp zu investieren. Hierbei wird das ganze Vorgehensmodell einmal _im Kleinen_ durchgespielt.
     - Ein erfahrenes Team mit guter Intuition kann in dieser Pilotphase mögliche Fehlerquellen aufspüren, wertvolle Erfahrungen machen und diese mithilfe einer guten Dokumentation dem Rest des Teams zur Verfügung stellen.
 1. Schritt: **planen, kontrollieren und auswerten**
-    - Die Testphase ist oft die aufwändigste und risikoreichste – und durch Verzögerungen oft zeitlich kritischste. Durch die drei vorherigen Schritte wird das Risiko der Testphase minimiert.
+    - Die Testphase ist oft die aufwändigste und risikoreichste – und durch Verzögerungen oft zeitlich kritischste. Durch eine gewissenhafte Durchführung der drei vorherigen Schritte wird das Risiko in der Testphase minimiert.
     - Viele Fehler können in den vorherigen Phasen bereits mithilfe eines Reviews durch eine andere Person entdeckt werden. So können die Fehler bereits vor dem Testen erkannt und korrigiert werden.
 1. Schritt: **den Kunden miteinbeziehen**
     - Der Kunde soll bereits zu einem frühen Zeitpunkt erneut in das Projekt miteinbezogen werden. Dies soll nicht erst beim Ausliefern der Software erfolgen, sondern bereits nach Abschluss der Design-Phase, um mögliche Missverständnisse vor der Implementierung zu klären. Der Auftragnehmer soll zwischen Anforderungs- und Betriebsphase nicht einfach sich selber überlassen werden.
@@ -116,14 +116,14 @@ Das Wasserfallmodell...
 3. basiert auf Anforderungen; der Kunde weiss gar nicht, was er will.
     - agile Lösung: ständiger Austausch mit dem Kunden
 4. erfordert viel Design-Arbeit; dies führt zu _Over-Engineering_.
-    - agile Lösung: Anforderungen möglichst einfach umsetzen und durch Refactoring verbessern
+    - agile Lösung: Anforderungen möglichst einfach umsetzen und iterativ verbessern
 5. hat einen katastrophalen Leistungsausweis; wir haben eine _Software-Krise_.
     - agile Lösung: wir werfen alles über Board und fangen _agil_ an zu entwickeln.
 
 {{% expand title="Ist diese Kritik gerechtfertigt?" %}}
 1. Royce bespricht das Feedback-Problem in seinem Artikel ausführlich. Der Kunde soll explizit im Projektverlauf eingebunden sein.
 2. Das Wasserfallmodell ist sehr dokumentlastig. Royce argumentiert, dass der Kunde von diesen Dokumenten indirekt profitiert.
-3. Der Kunde kann nach erfolgter Design-Phase überprüfen, ob seine Anforderungen richtig umgesetzt werden sollen.
-4. Ein gutes Design kann viele andere Probleme ersparen. Das nachträgliche Ändern von Software war 1970 wesentlich komplizierter.
+3. Der Kunde kann nach erfolgter Design-Phase überprüfen, ob seine Anforderungen richtig verstanden und abgebildet worden sind.
+4. Ein gutes Design kann viele andere Probleme verhindern, z.B. nachträgliche Änderungen an der Implementierung. (Das nachträgliche Ändern von Software war 1970 wesentlich komplizierter als heute.)
 5. Das Wasserfallmodell wurde oft falsch verstanden und eingesetzt. Wir haben trotz agiler Softwareentwicklung immer noch eine Software-Krise.
 {{% /expand %}}
