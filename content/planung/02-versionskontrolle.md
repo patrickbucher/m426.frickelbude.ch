@@ -26,4 +26,4 @@ Ihr versteht das Problem, das wir mit Versionskontrolle zu lösen versuchen.
 
 ## Hausaufgaben
 
-- Bearbeite den Teams-Auftrag
+- Bearbeite den Teams-Auftrag (Kontrollfragen & Git-Setup)

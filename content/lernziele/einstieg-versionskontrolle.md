@@ -18,7 +18,7 @@ weight = 1
 
 ## Prinzipien der agilen Softwareentwicklung
 
-- Du kannst vier wichtige Prinzipien der agilen Softwareentwicklung benennen und begründen.
+- Du kannst vier wichtige Prinzipien der agilen Softwareentwicklung benennen, erklären und begründen.
 - Du kannst gegebene Prinzipien anhand der drei Kriterien _abstrakt_, _falsifizierbar_ und _präskriptiv_ bewerten.
 
 ### Unterlagen
@@ -31,16 +31,16 @@ weight = 1
 ### Einführung
 
 1. Du kannst die Gründe für die Nutzung einer Versionskontrolle benennen.
-1. Du kannst die Möglichkeiten und Grenzen einer "handgestrickten" Versionskontrolle, die einzig auf dem Dateisystem basiert, beschreiben.
+1. Du kannst die Möglichkeiten und Grenzen einer dateinamenbasierten Versionskontrolle beschreiben.
 1. Du kannst die Anforderungen, welche eine Versionskontrolle für Dokumente und Quellcode erfordert, unterscheiden.
 
 ### Git: Grundlagen
 
-1. Du kannst die Designziele von Git benennen.
+1. Du kannst fünf Designziele von Git benennen.
 1. Du kannst den Aufbau, das Konzept und den Zweck eines _Commit Hashes_ erklären.
 1. Du kannst den Begriff _Repository_ in Zusammenhang mit Git definieren.
 1. Du kannst die drei Bereiche eines Repositories (Arbeitsverzeichnis, Staging-Bereich und `.git`-Verzeichnis) voneinander unterscheiden.
-1. Du kannst die Vorteile des offiziellen Git-Clients für die Kommandozeile gegenüber GUI-Clients für Git benennen.
+1. Du kannst die Vorteile des offiziellen Git-Clients für die Kommandozeile (CLI) gegenüber GUI-Clients für Git benennen.
 1. Du kannst die drei Ebenen, auf denen Git konfiguriert werden kann, unterscheiden: systemweit, benutzerweit, pro Repository.
 1. Du kannst erklären, warum man bei Git grundlegende Konfigurationseinstellungen (Name, E-Mail-Adresse, Texteditor) vornehmen muss.
 
@@ -60,5 +60,5 @@ weight = 1
 ### Unterlagen
 
 - Folien zur Einführung (`git-intro-folien.pdf`)
-- Skript Versionskontrolle (`versionskontrolle-skript.pdf`)
+- Skript zur Versionskontrolle (`versionskontrolle-skript.pdf`)
 - Folien zur Git-Verwendung (_Dokument folgt_)
