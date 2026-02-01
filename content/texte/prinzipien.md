@@ -4,6 +4,8 @@ title = '12 Principles of Agile Software'
 weight = 2
 +++
 
+## Original
+
 1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 1. Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
 1. Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
@@ -18,3 +20,7 @@ weight = 2
 1. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly. 
 
 Source: [Principles behind the Agile Manifesto](https://agilemanifesto.org/principles.html)
+
+## Bewertung
+
+_folgt_
