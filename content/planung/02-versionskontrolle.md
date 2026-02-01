@@ -15,16 +15,14 @@ Ihr versteht das Problem, das wir mit Versionskontrolle zu lösen versuchen.
 
 - [15 min.] [12 Principles of Agile Software](https://agilemanifesto.org/principles.html): Bewertung und Besprechung
 - [10 min.] Administratives und Tagesplanung
+- [5 min.] Kurzrepetition Wasserfallmodell
 - [15 min.] Hausaufgabenbesprechung
-- [5 min.] Versionskontrolle: Negativbeispiel
 
 ### Lektion 2
 
 - [30 min.] Versionskontrolle: Motivation, Git-Einführung und Arbeitsmodus
-    - TODO: Foliensätze zusammennehmen
 - [15 min.] Aufgabe: Setup und Kontrollfragen
 
 ## Hausaufgaben
 
-- Richte Git gemäss Teams-Auftrag ein.
-- Beantworte die Kontrollfragen gemäss Teams-Auftrag.
+- Bearbeite den Teams-Auftrag
