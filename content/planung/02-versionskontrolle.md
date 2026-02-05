@@ -14,9 +14,8 @@ Ihr versteht das Problem, das wir mit Versionskontrolle zu lösen versuchen.
 
 ### Lektion 1
 
-- [15 min.] [12 Principles of Agile Software](https://agilemanifesto.org/principles.html) ([Kopie](/texte/prinzipien/)): Bewertung und Besprechung
+- [25 min.] [12 Principles of Agile Software](https://agilemanifesto.org/principles.html) ([Kopie](/texte/prinzipien/)): Bewertung und Besprechung
 - [5 min.] Administratives und Tagesplanung
-- [10 min.] Kurzrepetition Wasserfallmodell
 - [15 min.] Hausaufgabenbesprechung
 
 ### Lektion 2
