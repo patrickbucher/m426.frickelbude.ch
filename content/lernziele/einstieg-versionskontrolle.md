@@ -4,7 +4,7 @@ title = 'Einstieg und Versionskontrolle'
 weight = 1
 +++
 
-## Einstieg
+## Einstieg: Software-Krise und Wasserfallmodell
 
 - Du kannst den Begriff [_Software-Krise_](/texte/wasserfall/#hintergrund-die-ewige-software-krise) in eigenen Worten erklären.
 - Du kannst die [sieben Schritte des naiven Wasserfallmodells](/texte/wasserfall/#grosse-projekte-viele-schritte) aufzählen.
