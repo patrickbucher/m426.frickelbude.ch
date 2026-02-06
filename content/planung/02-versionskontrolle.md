@@ -17,7 +17,7 @@ Ihr versteht das Problem, das wir mit Versionskontrolle zu lösen versuchen.
 - [25 min.] [12 Principles of Agile Software](https://agilemanifesto.org/principles.html) ([Kopie](/texte/prinzipien/)): Bewertung und Besprechung
 - [5 min.] Administratives und Tagesplanung
 - [15 min.] Hausaufgabenbesprechung
-    - BMSD24a: Repetition Wasserfallmodell ([Lernziele](/lernziele/einstieg-versionskontrolle/index.html#einstieg))
+    - BMSD24a: Repetition Wasserfallmodell ([Lernziele](/lernziele/einstieg-versionskontrolle))
 
 ### Lektion 2
 
