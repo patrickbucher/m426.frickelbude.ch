@@ -69,7 +69,7 @@ Keines der 12 Prinzipien überzeugt restlos. Einige sind zu konkret (3, 4, 6), v
 
 ## Alternative Prinzipien
 
-Bertrand Meyer schlägt in seinem Buch [Agile! The Good, the Hype, and the Ugly]() eine alternative Liste von Prinzipien basierend auf der Literatur zu verschiedenen Methoden (Scrum, Extreme Programming, Lean, Crystal) vor:
+Bertrand Meyer schlägt in seinem Buch [Agile! The Good, the Hype, and the Ugly](https://link.springer.com/book/10.1007/978-3-319-05155-0) eine alternative Liste von Prinzipien basierend auf der Literatur zu verschiedenen Methoden (Scrum, Extreme Programming, Lean, Crystal) vor:
 
 - Organizational
     1. Put the customer at the center.
