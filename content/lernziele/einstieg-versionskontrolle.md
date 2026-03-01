@@ -24,7 +24,6 @@ weight = 1
 ### Unterlagen
 
 - [Twelve Principles of Agile Software](https://agilemanifesto.org/principles.html)
-- Zusammenfassende Bewertung dieser Prinzipien (_Link folgt_)
 
 ## Versionskontrolle mit Git
 
@@ -62,3 +61,4 @@ weight = 1
 - Folien zur Einführung (`git-intro-folien.pdf`)
 - Skript zur Versionskontrolle (`versionskontrolle-skript.pdf`)
 - Folien zur Git-Verwendung (_Dokument folgt_)
+- Folien zu Git-Befehlen (`versionskontrolle-git-verwenden-1-folien.pdf` und `versionskontrolle-git-verwenden-2-folien.pdf`)
