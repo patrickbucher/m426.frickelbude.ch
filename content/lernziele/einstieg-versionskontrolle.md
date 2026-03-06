@@ -54,7 +54,7 @@ weight = 1
 7. Du verstehst das Konzept eines Remotes und weisst, wie es im Zusammenhang mit zentralen Repositories verwendet wird.
 8. Du kannst Branches erstellen, einen anderen Branch aktivieren, Änderungen zwischen Branches vergleichen und Branches zusammenführen.
 9. Du kannst Anwendungsfälle für Branches benennen und erklären.
-10. Du kannst den Workflow _Fork/Pull Request_ erklären.
+10. ~~Du kannst den Workflow _Fork/Pull Request_ erklären.~~
 
 ### Unterlagen
 
