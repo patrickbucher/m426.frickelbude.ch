@@ -60,5 +60,4 @@ weight = 1
 
 - Folien zur Einführung (`git-intro-folien.pdf`)
 - Skript zur Versionskontrolle (`versionskontrolle-skript.pdf`)
-- Folien zur Git-Verwendung (_Dokument folgt_)
 - Folien zu Git-Befehlen (`versionskontrolle-git-verwenden-1-folien.pdf` und `versionskontrolle-git-verwenden-2-folien.pdf`)
