@@ -17,5 +17,5 @@ Für Assertions wird an der Prüfung Dokumentation zur Verfügung gestellt.
 ### Unterlagen
 
 - Text [Agiles Testen](/texte/agiles-testen)
-- Folien _Unittesting mit Deno in TypeScript_ (`unittesting-deno-typescript.pdf`)
+- Folien _Unittesting mit Deno in TypeScript_ (`unittesting-deno-typescript-folien.pdf`)
 - Repository [math](https://github.com/m426-2026/math)
