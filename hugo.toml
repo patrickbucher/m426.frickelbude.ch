@@ -11,7 +11,8 @@ path = 'github.com/McShelby/hugo-theme-relearn'
 minifyOutput = true
 
 [params]
-math = false
+disableInlineCopyToClipBoard = true
+math = true
 openapi = false
 showVisitedLinks = true
 themeVariant = 'blue'
