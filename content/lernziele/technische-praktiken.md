@@ -19,4 +19,4 @@ Für Assertions wird an der Prüfung Dokumentation zur Verfügung gestellt.
 - Text [Agiles Testen](/texte/agiles-testen)
 - Folien _Unittesting mit Deno in TypeScript_ (`unittesting-deno-typescript-folien.pdf`)
 - Übung [Unittesting](/uebungen/unittesting/)
-- Repository [math](https://github.com/m426-2026/math)
+- Repository [m426-2026/math](https://github.com/m426-2026/math)
