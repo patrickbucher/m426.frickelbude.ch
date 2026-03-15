@@ -4,4 +4,4 @@ title = 'Texte'
 weight = 4
 +++
 
-Zum Nachlesen
+> Think before you speak. Read before you think.
