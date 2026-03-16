@@ -23,4 +23,4 @@ Du verstehst den Nutzen und die Grenzen vom Testen bei der Softwareentwicklung u
 
 ## Hausaufgaben
 
-Schliesse die Übung (Aufgaben 0, 1, und 2) auf nächste Woche ab und reiche einen Pull Request ein.
+Schliesse die Übung (Aufgaben 0, 1, und 2) ab und reiche den Link zu deinem Repository ein.
