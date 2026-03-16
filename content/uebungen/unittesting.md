@@ -17,7 +17,7 @@ Führe das Beispielprogramm aus:
 
     deno demo.ts
 
-Füre die bestehenden Unittests aus:
+Führe die bestehenden Unittests aus:
 
     deno test
 
@@ -36,7 +36,7 @@ Lies dir den Code in den folgenden Dateien durch:
 
 ## Aufgabe 1: Testabdeckung erhöhen
 
-Schreibe zusätzliche Testfälle für die Klassen in `fractin.ts` und `geometry.ts`.
+Schreibe zusätzliche Testfälle für die Klassen in `fraction.ts` und `geometry.ts`.
 
 Verwende hierzu **keine KI-Werkzeuge**, sondern erarbeite dir selber sinnvolle Testfälle!
 
@@ -44,11 +44,11 @@ Führe die Testfällen nach jeder Erweiterung aus und überprüfe die verändert
 
 ## Aufgabe 2: Ausnahmebehandlung
 
-Es ist möglich, Brüche mit einem Nenner von 0 zu definieren: `new Fraction(3, 0)` oder `Fraction.parse("3 / 0")`. Verhindere dies an passender Stelle, indem du eine entsprechende Exceptions bzw. einen `Error` wirfst. Ergänze die Testfälle entsprechend.
+Es ist möglich, Brüche mit einem Nenner von 0 zu definieren: `new Fraction(3, 0)` oder `Fraction.parse("3 / 0")`. Verhindere dies an passender Stelle, indem du eine entsprechende Exception bzw. einen `Error` wirfst. Ergänze die Testfälle entsprechend.
 
 ## Zusatzaufgabe: Anpassung der Fraction-API
 
-Die Grundrechenarten (`add`, `subtract`, `multiply` und `divide`) funktionieren _destruktiv_, d.h. sie verändern das bestehende Objekt.
+Die Grundrechenarten (`add`, `subtract`, `multiply` und `divide`) funktionieren _destruktiv_, d.h. sie verändern das bestehende Objekt, wonach der vorherige Status verschwunden ist.
 
 Sinnvoller wäre es, wenn diese Operationen jeweils einen neuen Bruch zurückgeben ohne denjenigen zu verändern, auf den die Operation angewendet worden ist.
 
