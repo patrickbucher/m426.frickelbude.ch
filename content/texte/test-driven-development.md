@@ -1,6 +1,7 @@
 +++
 date = '2026-03-21T08:22:31+01:00'
 title = 'Test-Driven Development'
+weight = 4
 +++
 
 zwei frei übersetzte Auszüge aus [Extreme Programming Explained](https://www.informit.com/store/extreme-programming-explained-embrace-change-9780321278654) (Kent Beck) und [Clean Agile](https://www.informit.com/store/clean-agile-back-to-basics-9780135781869) (Robert C. Martin)
