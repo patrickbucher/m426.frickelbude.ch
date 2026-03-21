@@ -20,3 +20,13 @@ Für Assertions wird an der Prüfung Dokumentation zur Verfügung gestellt.
 - Folien _Unittesting mit Deno in TypeScript_ (`unittesting-deno-typescript-folien.pdf`)
 - Übung [Unittesting](/uebungen/unittesting/)
 - Repository [m426-2026/math](https://github.com/m426-2026/math)
+
+## Test-Driven Development
+
+1. Du kannst die Auswirkung von _Test-First Programming_ bzw. _Test-Driven Development_ (TDD) auf den Entwicklungsprozess (Arbeitsrhythmus, Fehlersuche, Debugging) und die Code-Qualität (API-Design) erläutern.
+1. Du kannst das TDD-Vorgehen anhand der drei Regeln wiedergeben, erklären, begründen und anwenden.
+1. Du kannst die Vor- und Nachteile von gruppierten gegenüber parametrisierten Testfällen nachvollziehen und erklären.
+
+### Unterlagen
+
+- Text [Test-Driven Development](/texte/test-driven-development)
