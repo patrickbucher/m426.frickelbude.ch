@@ -24,4 +24,4 @@ Sie können neuen Code _testgetrieben_ entwickeln und verstehen die Vorteile die
 
 ## Hausaufgaben
 
-Schliesse die Übungen (Aufgaben 1-8) ab und reiche einen Pull Request ein.
+Bearbeite mindestens einen der beiden Teile ([Teil 1: Brüche kürzen](/uebungen/tdd/index.html#teil-1-brüche-kürzen) oder [Teil 2: Umschliessende Objekte](/uebungen/tdd/index.html#teil-2-umschliessende-objekte)) vollständig und reiche das Ergebnis als Pull Request ein.
