@@ -15,8 +15,8 @@ Sie können neuen Code _testgetrieben_ entwickeln und verstehen die Vorteile die
 ### Lektion 1
 
 - [5 min.] Administratives
-- [10 min.] Präsentation von Übungen
 - [30 min.] Einführungstext zu [Test-Driven Development](/texte/test-driven-development)
+- [10 min.] Erteilung des Auftrags
 
 ### Lektion 2
 
