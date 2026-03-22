@@ -108,9 +108,37 @@ In der folgenden Abbildung ist die Situation umgedreht: Der Kreis enthält das R
 
 Erweitere in `geometry.ts` die Schnittstelle `Shape` um folgende Deklaration: `Shape.encompasses(other: Shape): boolean`. Diese Methode soll `true` zurückgeben, wenn das jeweilige Objekt das andere komplett umschliesst. Andernfalls soll `false` zurückgegeben werden.
 
-Implementiere eine entsprechende Dummy-Methode für die Klassen `Rectangle` und `Circle`, damit es keine Kompilierfehler gibt.
+**Hinweis**: Implementiere eine entsprechende Dummy-Methode für die Klassen `Rectangle` und `Circle`, damit es keine Kompilierfehler gibt.
 
-### Aufgabe 5: Rechteck beinhaltet Kreis
+Bearbeite anschliessend die folgenden Aufgaben zur Implementierung dieser Methode, wobei du dich ans TDD-Vorgehen hälst.
+
+### Aufgabe 5: Hilfsmethoden für Kreispunkte
+
+Betrachte die folgende Abbildung eines Kreises mit dem Mittelpunkt $M$ auf den Koordinaten $(5,5)$ und dem Radius $r=5$:
+
+![Der Kreis mit dem Mittelpunkt, dem Radius und den Punkten für die Himmelsrichtungen](/images/geometry/circ-only.svg)
+
+Vom Kreis (`Circle`) ist zunächst nur dessen Mittelpunkt $M$ (`center: Point2D`) und Radius $r$ (`radius: number`) bekannt. Erweitere die Klasse `Circle` um die folgenden Methoden:
+
+- `north(): Point2D`
+- `east(): Point2D`
+- `south(): Point2D`
+- `west(): Point2D`
+
+Diese sollen anhand des Mittelpunkts und Radius die entsprechenden Punkte $N$, $E$, $S$ ud $W$ ermitteln und zurückgeben.
+
+**Hinweis**: Die Punkte $N$ und $S$ haben die gleiche x-Koordinate wie $M$, die Punkte $E$ und $W$ die gleiche y-Koordinate wie $M$. Die y-Koordinaten von $N$ und $S$ sind entsprechen der y-Koordinate von $M$ um den Kreisradius $r$ erhöht oder verringert: $N_y = M_y + r$ bzw. $S_y = M_y - r$. Für die x-Koordinaten von $W$ und $E$ erfolgt die Rechnung analog dazu.
+
+### Aufgabe 6: Hilfsmethoden für Punkteinschluss
+
+Erweitere die Klasse `Point2D` um folgende Methoden:
+
+- `isBetweenX(p: Point2D, q: Point2D): boolean`: prüft, ob die Punkte $p$ und $q$ den Punkt auf der x-Achse einschlissen, sodass gilt $p.x < x < q.x$
+- `isBetweenY(p: Point2D, q: Point2D): boolean`: prüft, ob die Punkte $p$ und $q$ den Punkt auf der y-Achse einschlissen, sodass gilt $p.y < y < q.y$
+
+**Hinweis**: Als Testfälle kannst du die Methode auf dem Kreismittelpunkt $M$ mit den Punkten $N$, $E$, $S$ und $W$ verwenden, wobei $M$ auf der x-Achse zwischen $W$ und $E$ bzw. auf der y-Achse zwischen $N$ und $S$ liegt. Schreibe auch Negativtests dazu.
+
+### Aufgabe 7: Rechteck beinhaltet Kreis
 
 Implementiere die Methode `Rectangle.encompasses(other: Shape): boolean` gemäss TDD-Vorgehen für Kreise (`other instanceof Circle`).
 
@@ -120,12 +148,14 @@ Betrachte hierzu noch einmal die folgende Abbildung:
 
 Das Rechteck umschliesst den Kreis komplett, wenn sowohl dessen Mittelpunkt als auch die _Extrempunkte_ $N$, $E$, $S$ und $W$ (für _North_, _East_, _South_, _West_) innerhalb des Rechtecks legen. Betrachte hierzu die x- und y-Achsen separat:
 
-- die x-Koordinate vom _Kreispunkt_ $K$ muss zwischen den x-Koordinaten der Punkte $A$ und $B$ liegen: $x_A < x_K < x_B$
-- die y-Koordinate vom _Kreispunkt_ $K$ muss zwischen den y-Koordinaten der Punkte $A$ und $D$ liegen: $y_A < y_K < y_D$
+- die x-Koordinate vom _Kreispunkt_ $K$ muss zwischen den x-Koordinaten der Punkte $A$ und $B$ liegen: $A_x < K_x < B_x$
+- die y-Koordinate vom _Kreispunkt_ $K$ muss zwischen den y-Koordinaten der Punkte $A$ und $D$ liegen: $A_y < K_y < D_y$
 
 Als _Kreispunkte_ $K$ müssen die konkreten Punkte $M$, $N$, $E$, $S$ und $W$ geprüft werden.
-.
-### Aufgabe 6: Kreis beinhaltet Rechteck
+
+**Hinweis**: Verwende hierzu die Hilfsmethoden der vorherigen beiden Aufgaben.
+
+### Aufgabe 8: Kreis beinhaltet Rechteck
 
 Implenentiere die Methode `Circle.encompasses(other: Shape): boolean` gemäss TDD-Vorgehen für Rechtecke (`other instanceof Rectangle`).
 
@@ -135,4 +165,4 @@ Betrachte hierzu noch einmal die folgende Abbildung:
 
 Der Kreis umschliesst das Rechteck komplett, wenn die Punkte $A$, $B$, $C$, $D$ alle innerhalb des Kreises liegen. Dies ist der Fall, wenn die Distanz zwischen $M$ und dem jeweiligen Punkt kleiner ist als der Radius.
 
-Die Distanz zwischen zwei Punkten kann über die Methode `Point2D.distanceTo(other: Point2D)` ermittelt werden.
+**Hinweis**: Die Distanz zwischen zwei Punkten kann über die Methode `Point2D.distanceTo(other: Point2D)` ermittelt werden.
