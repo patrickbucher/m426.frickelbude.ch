@@ -24,4 +24,4 @@ Sie können neuen Code _testgetrieben_ entwickeln und verstehen die Vorteile die
 
 ## Hausaufgaben
 
-Schliesse die Übungen (Aufgaben 1-6) ab und reiche einen Pull Request ein.
+Schliesse die Übungen (Aufgaben 1-8) ab und reiche einen Pull Request ein.
