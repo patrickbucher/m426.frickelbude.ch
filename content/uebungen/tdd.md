@@ -110,7 +110,7 @@ Erweitere in `geometry.ts` die Schnittstelle `Shape` um folgende Deklaration: `S
 
 **Hinweis**: Implementiere eine entsprechende Dummy-Methode für die Klassen `Rectangle` und `Circle`, damit es keine Kompilierfehler gibt.
 
-Bearbeite anschliessend die folgenden Aufgaben zur Implementierung dieser Methode, wobei du dich ans TDD-Vorgehen hälst.
+Bearbeite anschliessend die folgenden Aufgaben zur Implementierung dieser Methode, wobei du dich ans TDD-Vorgehen hältst.
 
 ### Aufgabe 5: Hilfsmethoden für Kreispunkte
 
