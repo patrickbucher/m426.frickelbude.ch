@@ -4,7 +4,7 @@ title = 'Block 7: Test-Driven Development'
 weight = 7
 +++
 
-Im siebten Block befassen wir uns erneut mit Unittests, dieses mal geht es jedoch um ein spezielles Verfahren, welches das Schreiben von Tests mit dem Entwickeln des Produktivcodes integriert: _Test First Programming_ bzw. _Test-Driven Development_ (TDD). Zuerst lesen wir in zwei Texten nach, wie TDD funktioniert und welche Vorteile es bietet. Anschliessend bearbeiten wir eine Übung dazu, indem wir die `math`-Bibliotheck von letzter Woche erweitern.
+Im siebten Block befassen wir uns erneut mit Unittests, dieses mal geht es jedoch um ein spezielles Verfahren, welches das Schreiben von Tests mit dem Entwickeln des Produktivcodes integriert: _Test First Programming_ bzw. _Test-Driven Development_ (TDD). Zuerst lesen wir in zwei Texten nach, wie TDD funktioniert und welche Vorteile es bietet. Anschliessend bearbeiten wir eine Übung dazu, indem wir die `math`-Bibliothek von letzter Woche erweitern.
 
 ## Ziel
 
