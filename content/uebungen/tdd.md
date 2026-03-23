@@ -29,7 +29,7 @@ Erstelle für die folgenden beiden Aufgaben zwei neue Dateien `gcd.ts` und `gcd_
 
 Schreibe eine Funktion `gcdBruteForce(a: number, b: number): number`. Diese soll den ggT von `a` und `b` durch systematisches Auspropieren ermitteln.
 
-Prüfe dabei für den Zahlenbereich von $min(\frac{a}{2},\frac{b}{2}) \geq i \geq 1$, ob $i$ die Zahlen $a$ _und_ $b$ restlos teilt (`a % i == 0` bzw. `b % 1 == 0`). Das erste gefundene Ergebnis ist der ggT.
+Prüfe dabei für den Zahlenbereich von $min(\frac{a}{2},\frac{b}{2}) \geq i \geq 1$, ob $i$ die Zahlen $a$ _und_ $b$ restlos teilt (`a % i == 0` bzw. `b % i == 0`). Das erste gefundene Ergebnis ist der ggT.
 
 **Hinweis**: Schreibe zuerst triviale Tests, z.B. für `ggT(1, 1)`, bevor du die eigentliche Logik implementierst.
 
