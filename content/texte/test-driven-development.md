@@ -6,7 +6,7 @@ weight = 4
 
 zwei frei übersetzte Auszüge aus [Extreme Programming Explained](https://www.informit.com/store/extreme-programming-explained-embrace-change-9780321278654) (Kent Beck) und [Clean Agile](https://www.informit.com/store/clean-agile-back-to-basics-9780135781869) (Robert C. Martin)
 
-## Kent Beck: Extreme Programming (S. 50-51)
+## Kent Beck: Extreme Programming Explained (S. 50-51)
 
 Schreibe einen scheiternden automatischen Test bevor du Code veränderst. Test-First Programming geht gleich mehrere Probleme auf einmal an:
 
