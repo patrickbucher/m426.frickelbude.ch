@@ -18,7 +18,7 @@ Beim kontinuierlichen Testen führt man die Tests nach jeder Änderung am Progra
 
 Die Tests, die man beim Test-First Programming schreibt, haben die Einschränkung, dass sie das Programm aus einer Mikroperspektive betrachten: arbeiten die Objekte gut zusammen? Mit steigender Erfahrung wird es möglich, mehr und mehr Vergewisserung mit diesen Tests zum Ausdruck zu bringen. Aufgrund ihres begrenzten Umfangs laufen diese Tests tendenziell sehr schnell durch. In wenigen Minuten lassen sich tausende davon ausführen.
 
-### Verständnifsragen
+### Verständnisfragen
 
 1. Was bedeutet _Scope Creep_?
 2. Was bedeuten _Kopplung_ und _Kohäsion_?
