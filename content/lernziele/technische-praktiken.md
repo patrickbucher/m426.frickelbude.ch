@@ -31,3 +31,15 @@ Für Assertions wird an der Prüfung Dokumentation zur Verfügung gestellt.
 
 - Text [Test-Driven Development](/texte/test-driven-development)
 - Übung [Test-Driven Development](/uebungen/tdd)
+
+## Pair Programming
+
+1. Du kannst die Motivation, die Ziele und den Nutzen von Pair Programming benennen.
+1. Du kannst die verschiedenen Ansichten zum Thema Pair Programming von Kent Beck (_Extreme Programming Explained_) und Robert C. Martin (_Clean Agile_) wiedergeben und gegeneinander abgrenzen.
+1. Du kannst mögliche Probleme beim Pair Programming mit passenden Lösungen dazu benennen.
+1. Du kannst eine Pair Programming Session vor Ort oder per Videokonferenz organisieren, durchführen und im Anschluss reflektieren.
+
+### Unterlagen
+
+- Text [Pair Programming](/texte/pair-programming/)
+- Übung [Pair Programming](/uebungen/pair-programming)
