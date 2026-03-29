@@ -4,7 +4,7 @@ title = 'Test-Driven Development'
 weight = 2
 +++
 
-Dies Übung basiert auf dem bereits bekannten Repository
+Diese Übung basiert auf dem bereits bekannten Repository
 [m426-2026/math](https://github.com/m426-2026/math) bzw. auf deinem Fork davon.
 
 Nachdem du in der [letzten Übung](/uebungen/unittesting) Testfälle für den bestehenden Code geschrieben hast, soll die Funktionalität in dieser Übung erweitert werden.
