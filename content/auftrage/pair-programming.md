@@ -6,13 +6,13 @@ weight = 1
 
 ## Auftrag
 
-Implementiert das Spiel _Knobelscheit_ gemäss untenstehender Erklärung basierend auf dem Repository [m426-2026/knobelscheit](TODO).
+Implementiert das Spiel _Knobelscheit_ gemäss untenstehender [Aufgabenstellung](#aufgabenstellung-knobelscheit) basierend auf dem Repository [m426-2026/knobelscheit](https://github.com/m426-2026/knobelscheit).
 
-- Vereinbart einen Termin für eine gemeinsame Videokonferenz deinen Partnern von ca. einer Stunde.
+- Vereinbare einen Termin für eine gemeinsame Videokonferenz mit deinem Partner von ca. einer Stunde.
     - Stellt sicher, dass alle Beteiligten Zugriff auf den gleichen Fork vom Originalrepository haben.
-- Bearbeitet [TODO](TODO) gemeinsam gemäss TDD- und Pair-Programming-Vorgehen.
+- Bearbeitet die untenstehende Aufgabenstellung gemeinsam gemäss TDD- und Pair-Programming-Vorgehen.
     - Zeichnet die Videobesprechung auf (Audio und Video).
-    - Alle Beteiligten sollen mindestens einmal die Rolle des _Drivers_ und des _Navigators_ einnehmen. Der _Driver_ teilt dabei seinen Bildschirm.
+    - Alle Beteiligten sollen mindestens einmal die Rolle des _Drivers_ und des _Navigators_ einnehmen. Der _Driver_ teilt dabei jeweils seinen Bildschirm.
     - Für jedes Gruppenmitglied soll eine _Driver_-Sequenz von ca. 2-3 Minuten herausgesucht und dazu die entsprechende Zeitangabe notiert werden, z.B. `15:13-17:54`.
     - Erstellt regelmässige Commits, etwa dann, wenn ein Test zum Durchlaufen gebracht worden ist.
 - Reicht das Ergebnis als Pull Request ein.
@@ -24,7 +24,7 @@ Implementiert das Spiel _Knobelscheit_ gemäss untenstehender Erklärung basiere
 ### Bedingungen
 
 - Es werden keine KI-Tools eingesetzt; weder für die Programmierung noch für die Reflexion.
-    - Zuwiderhandlung: 0 Punkte für die jeweilige Kategorie _Ergebnis (Code)_ oder _Reflexion_
+    - Zuwiderhandlung: 0 Punkte für die jeweilige Kategorie (Reflexion bzw. Ergebnis & Methodik)
 - Es wird erst API-Dokumentation durch den Navigator konsultiert, wenn keine der Beteiligten mehr weiterhelfen können.
 - Es wird kein Code eins zu eins aus externen Quellen übernommen, sondern nachgeschrieben.
 
@@ -38,27 +38,34 @@ Implementiert das Spiel _Knobelscheit_ gemäss untenstehender Erklärung basiere
     3. `Reflexion-[Vorname]-[Nachname].docx`: Die Reflexion jedes Gruppenmitglieds
     4. `Pull-Request.txt`: Link auf Pull Request
 
-**Wichtig**: Es geht nicht darum, die Aufgabe komplett zu lösen, sondern darum, das Vorgehen auszuprobieren und den Versuch zu dokumentieren! ("Der Weg ist das Ziel.")
-
 ### Bewertung (Rubrik)
 
-- Ergebnis (Code)
+- Ergebnis
+    1. nichts abgeschlossen
+    2. Würfel inkl. Unittest umgesetzt
+    3. Knobelscheit inkl. Unittest umgesetzt
+    4. Spiellogik umgesetzt
+- Methodik (Pair Programming, Test-Driven Development)
+    1. nicht erkennbar
+    2. ansatzweise erkennbar
+    3. teilweise eingehalten
+    4. konsequent eingehalten
+- Aufzeichnung (Bild und Sprache)
     1. nicht vorhanden
-    2. Code vorhanden, aber unbrauchbar
-    3. funktionierender Test oder funktionierender Produktivcode vorhanden
-    4. funktionierender Test und funktionierender Produktivcode vorhanden
-- Aufzeichnung
-    1. nicht vorhanden
-    2. unzureichendes Vorgehen
-    3. ansatzweise verlangtes Vorgehen
-    4. Vorgehen gemäss Erwartung
+    2. hinterlassen schlechten Eindruck
+    3. hinterlassen mässigen Eindruck
+    4. hinterlassen professionellen Eindruck
 - Reflexion
     1. nicht vorhanden
     2. oberflächlich, allgemein
     3. Reflexionsfragen teilweise behandelt
     4. Reflexionsfragen vollständig behandelt
 
-_Ergebnis_ und _Aufzeichnung_ werden grundsätzlich gemeinsam; die _Reflexion_ einzeln bewertet. Bei groben Leistungsunterschieden werden alle Kategorien einzeln bewertet.
+Pro Kategorie sind max. drei Punkte erreichbar. (Maximalpunktzahl: $4 \times 3 = 12$) Es können auch halbe Punkte vergeben werden.
+
+Die Reflexion wird einzeln bewertet, die anderen Kategorien gemeinsam. (Bei groben Leistungsunterschieden kann die Benotung einzeln erfolgen.)
+
+Ist der angegebene Ausschnitt zu wenig aussagekräftig, wird zur Bewertung der Rest des Videos beigezogen.
 
 ## Aufgabenstellung: Knobelscheit
 
@@ -66,39 +73,39 @@ Implementiert das Spiel _Knobelscheit_ als Kommandozeilenanwendung. Dieses ist i
 
 ### Spielverlauf
 
-Die Ausgangslage: die Zahlen von eins bis neun sind in der Ursprungsposition.
+Die Ausgangslage: die Zahlen von eins bis neun sind in der Ursprungsposition:
 
 ![1](/images/knobelscheit/1.jpeg)
 
-Die erste Zahl kann umgeklappt werden.
+Die erste Zahl kann umgeklappt werden:
 
 ![2](/images/knobelscheit/2.jpeg)
 
-Da die Zahl, welche der Augensumme entspricht, bereits umgedreht worden ist, werden zwei Zahlen umgedreht, die ebenfalls die Augensumme ergeben.
+Da die Zahl, welche der Augensumme entspricht, bereits umgedreht worden ist, werden zwei Zahlen umgedreht, die ebenfalls die Augensumme ergeben:
 
 ![3](/images/knobelscheit/3.jpeg)
 
-Eine weitere Zahl kann umgeklappt werden.
+Eine weitere Zahl kann umgeklappt werden:
 
 ![4](/images/knobelscheit/4.jpeg)
 
-Die Augenzahlen der beiden Würfeln entsprechen den beiden umgeklappten Zahlen.
+Die Augenzahlen der beiden Würfeln entsprechen den beiden umgeklappten Zahlen:
 
 ![5](/images/knobelscheit/5.jpeg)
 
-Abermals wird die gleiche Zahl gewürfelt. Sie lässt sich erneut durch eine andere Kombination abbilden.
+Abermals wird die gleiche Zahl gewürfelt. Sie lässt sich erneut durch eine andere Kombination abbilden:
 
 ![6](/images/knobelscheit/6.jpeg)
 
-Leider geht es dieses Mal nicht auf.
+Leider geht es dieses Mal nicht auf:
 
 ![7](/images/knobelscheit/7.jpeg)
 
-Im zweiten Versuch klappt es doch.
+Im zweiten Versuch klappt es doch:
 
 ![8](/images/knobelscheit/8.jpeg)
 
-Das Spiel ist nach sieben Würfen beendet.
+Das Spiel ist nach sieben Würfen beendet:
 
 ### Umsetzung
 
