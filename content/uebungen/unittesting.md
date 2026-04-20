@@ -41,7 +41,7 @@ Schreibe zusätzliche Testfälle für die Klassen in `fraction.ts` und `geometry
 
 Verwende hierzu **keine KI-Werkzeuge**, sondern erarbeite dir selber sinnvolle Testfälle!
 
-Führe die Testfällen nach jeder Erweiterung aus und überprüfe die veränderte Testabdeckung. Es sollte möglich sein, auf 100% zu kommen!
+Führe die Testfälle nach jeder Erweiterung aus und überprüfe die veränderte Testabdeckung. Es sollte möglich sein, auf 100% zu kommen!
 
 ## Aufgabe 2: Ausnahmebehandlung
 

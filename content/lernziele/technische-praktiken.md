@@ -31,3 +31,30 @@ Für Assertions wird an der Prüfung Dokumentation zur Verfügung gestellt.
 
 - Text [Test-Driven Development](/texte/test-driven-development)
 - Übung [Test-Driven Development](/uebungen/tdd)
+
+## Pair Programming
+
+1. Du kannst die Motivation, die Ziele und den Nutzen von Pair Programming benennen.
+1. Du kannst die verschiedenen Ansichten zum Thema Pair Programming von Kent Beck (_Extreme Programming Explained_) und Robert C. Martin (_Clean Agile_) wiedergeben und gegeneinander abgrenzen.
+1. Du kannst mögliche Probleme beim Pair Programming mit passenden Lösungen dazu benennen.
+1. Du kannst eine Pair Programming Session vor Ort oder per Videokonferenz organisieren, durchführen und im Anschluss reflektieren.
+
+### Unterlagen
+
+- Text [Pair Programming](/texte/pair-programming/)
+- Übung [Pair Programming](/uebungen/pair-programming)
+
+## Clean Code
+
+1. Du weisst, warum Lesbarkeit und Verständlichkeit wichtige Kriterien für guten Programmcode sind.
+1. Du kannst die Vorteile von einheitlicher Code-Formatierung gegenüber unformatiertem Code benennen und die entsprechenden Regeln anwenden.
+1. Du verstehst den Zusammenhang zwischen Code-Formatierung und Versionskontrolle.
+1. Du verstehst die Regeln zur Benennung von Bezeichnern und kannst diese anwenden.
+1. Du kannst nützliche von unnützen Kommentaren unterscheiden und den Quellcode sinnvoll kommentieren.
+1. Du kannst das Prinzip der Wiederverwendbarkeit auf Code und Werte anwenden.
+1. Du kannst die Regeln der Klarheit von Programmcode anwenden.
+
+### Unterlagen
+
+- Folien _Clean Code_
+- Repository [red-rigged-raffle](https://github.com/m426-2026/red-rigged-raffle)

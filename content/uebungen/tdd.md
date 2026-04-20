@@ -4,7 +4,7 @@ title = 'Test-Driven Development'
 weight = 2
 +++
 
-Dies Übung basiert auf dem bereits bekannten Repository
+Diese Übung basiert auf dem bereits bekannten Repository
 [m426-2026/math](https://github.com/m426-2026/math) bzw. auf deinem Fork davon.
 
 Nachdem du in der [letzten Übung](/uebungen/unittesting) Testfälle für den bestehenden Code geschrieben hast, soll die Funktionalität in dieser Übung erweitert werden.
@@ -78,11 +78,11 @@ for (const { a, b, gcd } of gcdTests) {
 
 Dieses Muster bezeichnet man als _Table-Driven Tests_ (tabellengetriebene Tests). Es ist eine Alternative zum Muster _Arrange, Act, Assert_ bzw. _Given, When, Then_, das vor allem dann sinnvoll ist, wenn es sehr viele Testfälle mit der gleichen Struktur gibt. (Verschiedene Testframeworks unterstützen diese Art des Testens mit spezialisierten APIs.)
 
-Der Vorteil von _Table-Driven Test_ ist, dass ein zusätzlicher Testfall nur einen weiteren Eintrag in die Testtabelle benötigt. Der Nachteil ist, dass der Testcode etwas komplizierter wird.
+Der Vorteil von _Table-Driven Test_ ist, dass ein zusätzlicher Testfall nur einen weiteren Eintrag in der Testtabelle benötigt. Der Nachteil ist, dass der Testcode etwas komplizierter wird.
 
 ### Aufgabe 4: Automatische Kürzung
 
-Die Kürzung des Bruches kann bereits nach jeder Rechenoperation erfolgen oder auch im Konstruktor bzw. beim Parsen (`Fraction.parse`) erfolgen.
+Die Kürzung des Bruchs kann bereits nach jeder Rechenoperation erfolgen oder auch im Konstruktor bzw. beim Parsen (`Fraction.parse`) erfolgen.
 
 Implementiere die automatische Kürzung von Brüchen. Halte dich dabei ans TDD-Vorgehen, indem du zuerst scheiternde Testfälle schreibst, welche ein gekürztes Ergebnis erwarten. Passe anschliessend die Implementierung von `Fraction` an, damit die Testfälle (wieder) durchlaufen.
 
@@ -125,7 +125,7 @@ Vom Kreis (`Circle`) ist zunächst nur dessen Mittelpunkt $M$ (`center: Point2D`
 - `south(): Point2D`
 - `west(): Point2D`
 
-Diese sollen anhand des Mittelpunkts und Radius die entsprechenden Punkte $N$, $E$, $S$ ud $W$ ermitteln und zurückgeben.
+Diese sollen anhand des Mittelpunkts und Radius die entsprechenden Punkte $N$, $E$, $S$ und $W$ ermitteln und zurückgeben.
 
 **Hinweis**: Die Punkte $N$ und $S$ haben die gleiche x-Koordinate wie $M$, die Punkte $E$ und $W$ die gleiche y-Koordinate wie $M$. Die y-Koordinaten von $N$ und $S$ sind entsprechen der y-Koordinate von $M$ um den Kreisradius $r$ erhöht oder verringert: $N_y = M_y + r$ bzw. $S_y = M_y - r$. Für die x-Koordinaten von $W$ und $E$ erfolgt die Rechnung analog dazu.
 
@@ -157,7 +157,7 @@ Als _Kreispunkte_ $K$ müssen die konkreten Punkte $M$, $N$, $E$, $S$ und $W$ ge
 
 ### Aufgabe 8: Kreis beinhaltet Rechteck
 
-Implenentiere die Methode `Circle.encompasses(other: Shape): boolean` gemäss TDD-Vorgehen für Rechtecke (`other instanceof Rectangle`).
+Implementiere die Methode `Circle.encompasses(other: Shape): boolean` gemäss TDD-Vorgehen für Rechtecke (`other instanceof Rectangle`).
 
 Betrachte hierzu noch einmal die folgende Abbildung:
 
