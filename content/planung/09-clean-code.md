@@ -24,5 +24,5 @@ Du kannst Kriterien für sauberen Code benennen und anwenden.
 
 ### Hausaufgaben
 
-- _Pflicht_: Lies den Auftrag [Pair Programming](http://localhost:1313/auftrage/pair-programming/) durch und bringe allfällige Fragen nächste Woche in den Unterricht mit.
+- _Pflicht_: Lies den Auftrag [Pair Programming](/auftrage/pair-programming/) durch und bringe allfällige Fragen nächste Woche in den Unterricht mit.
 - _freiwillig_: Reiche einen Pull Request zur Übung ein, wenn du eine Rückmeldung zu deinem Code erhalten möchtest.
