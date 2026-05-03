@@ -72,3 +72,14 @@ Für Assertions wird an der Prüfung Dokumentation zur Verfügung gestellt.
 - Folien _Refactoring_
 - Text [Refactoring](/texte/refactoring/)
 - Übung [Refactoring](/uebungen/refactoring)
+
+## Entwurfsmuster
+
+1. Du kannst die Idee von Entwurfsmustern (Design Patterns) erklären und sie von anderen Arten der Software-Wiederverwendbarkeit (Libraries, Frameworks) abgrenzen.
+1. Du kannst die konkreten Entwurfsmuster _Adapter_, _Observer_ und _State_ erklären und auf eine gegebene Problemstellung anwenden.
+
+### Unterlagen
+
+- Folien _Entwurfsmuster_
+- Text [Design Patterns (Entwurfsmuster)](/texte/design-patterns/)
+- Übung [Design Patterns (Entwurfsmuster)](/uebungen/design-patterns/)
