@@ -1,6 +1,6 @@
 +++
 date = '2026-05-03T18:01:54+02:00'
-title = 'Design Patterns'
+title = 'Entwurfsmuster'
 weight = 6
 +++
 
