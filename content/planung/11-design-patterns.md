@@ -1,6 +1,7 @@
 +++
 date = '2026-05-03T18:59:50+02:00'
 title = 'Block 11: Entwurfsmuster'
+weight = 11
 +++
 
 Im elften Block schliessen wir die technischen Praktiken mit dem Thema "Design Patterns" (Entwurfsmuster) ab. Nachdem wir das Konzept dahinter und mit dem _Adapter_ ein konkretes Entwurfsmuster angeschaut haben, stehen Übungen für das _Observer_- und für das _State_-Pattern zur Verfügung.
