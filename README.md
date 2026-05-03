@@ -12,7 +12,7 @@ Extend `hugo.toml`:
 
 ```toml
 baseURL = 'https://m426.frickelbude.ch'
-languageCode = 'de-ch'
+locale = 'de-ch'
 title = 'Modul 426: Software mit agilen Methoden entwickeln'
 
 [module]
