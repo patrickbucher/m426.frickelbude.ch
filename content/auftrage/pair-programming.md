@@ -133,5 +133,6 @@ Das Spiel ist nach sieben Würfen beendet:
     - Die nicht-interaktive Programmlogik sollte eine relevante Testabdeckung haben; 80% sollten locker drin liegen (80/20-Regel: 20% vom Testcode sollte 80% vom Produktivcode abdecken können).
 - **Spiellogik**: Ist es korrekt, dass wir für die interaktive Eingabe keine Unittests schreiben müssen? 
     - Korrekt; das könnt ihr manuell testen. Evtl. ist es aber sinnvoll, gewisse Teile des interaktiven Codes in die Library auszulagern und auch zu testen. Das ist aber optional.
-
+- **Sprache**: Muss das ganze Pairprogramming auf Hochdeutsch gemacht werden oder kann auch Schweizerdeutsch benutzt werden? 
+    - Ihr könnt das Video auf Schweizerdeutsch oder Hochdeutsch machen; so wie es für euch am natürlichsten ist.
  
