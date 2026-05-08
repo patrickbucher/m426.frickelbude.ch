@@ -69,11 +69,11 @@ Das [imperiale System](https://de.wikipedia.org/wiki/Imperiales_Einheitensystem)
 
 In der Datei `src/conversion.ts` ist die Umrechnung von verschiedenen imperialen Längenmassen in Meter implementiert (Funktion `convertToMeters`). Hierzu kommt die `conversionTable` zum Einsatz.
 
-Der Code ist aber recht repetitiv. Möchte man eine weitere Einheit, z.B. _Furlong_ (entspricht 22 Yards) unterstützen, muss sehr viel Code dupliziert werden. Das ginge sicherlich einfacher.
+Der Code ist aber recht repetitiv. Möchte man eine weitere Einheit, z.B. _Furlong_ (entspricht 220 Yards) unterstützen, muss sehr viel Code dupliziert werden. Das ginge sicherlich einfacher.
 
 Nehme ein Refactoring vor, um die Implementierung der Funktion `convertToMeters` besser erweiterbar zu machen. Kriterium: Kann eine weitere Längeneinheit unterstützt werden, ohne den Code der Funktion `convertToMeters` anzupassen, ist das Refactoring geglückt!
 
 Schreibe hierzu Testfälle in `src/conversion_test.ts`. Ein Test ist bereits vorgegeben.
 
-Um das Refactoring zu überprüfen, füge einen neuen Testfall für das Längenmass _Furlong_ (entspricht 22 Yards) ein. Gehe dabei gemäss TDD vor.
+Um das Refactoring zu überprüfen, füge einen neuen Testfall für das Längenmass _Furlong_ (entspricht 220 Yards) ein. Gehe dabei gemäss TDD vor.
 
