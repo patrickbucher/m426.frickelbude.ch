@@ -1,6 +1,6 @@
 +++
 date = '2026-05-10T19:43:13+02:00'
-title = 'Block 12: Prüfung 1'
+title = 'Block 12: Prüfung 2'
 weight = 12
 +++
 
