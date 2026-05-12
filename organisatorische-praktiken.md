@@ -1,0 +1,48 @@
+- Themen
+    - User Stories
+        - Priorisierung mit Eisenhower-Matrix
+        - INVEST-Kriterien
+        - Story Points und T-Shirt-Grössen
+        - Schätzung
+    - Scrum
+        - Rollen
+            - Scrum Master
+            - Product Owner
+            - Developer
+        - Events
+        - Artefakte
+    - Agile Projekte
+        - Zielkonfflikt "gut, schnell, günstig": Kompromisse
+        - Zielkonflikt genau/zutreffend
+        - Velocity & Burn Down Chart
+        - trivariate Schätzung
+        - Standup Meeting
+- Blöcke
+    1. User Stories
+        - Theorie: Slides/Wandtafel
+        - Praxis: Stories schreiben & schätzen
+        - Ziel: Backlog geschätzter Stories
+    2. Scrum
+        - Theorie: Slides/Wandtafel, Scrum Guide
+        - Praxis: Gruppenbildung
+        - Ziel: Rollen verteilt
+    3. Agile Projekte
+        - Theorie: Slides
+        - Praxis: Implementierung
+        - Ziel: Implementierung in Gang
+    4. Abschluss
+        - Theorie: Kritik an agilen Methoden
+        - Praxis: Präsentation der Projekte
+        - Ziel Implementierung abgeschlossen
+- Projekt: soccer-table
+    - Komponenten
+        - result-server: generiert zufällige Ergebnisse anhand gegebener Teams
+        - table-server: generiert Tabelle anhand gegebener Ergebnisse
+        - cli-client: integriert die beiden Server und gibt die Tabelle aus
+    - Aufteilung
+        - Projektgruppe: max 10 Personen
+        - pro Projektgruppe
+            - 1 Scrum Master
+            - 3 Produktteams
+                - je 1 Product Owner
+                - Rest: Entwickler
