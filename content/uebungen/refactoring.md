@@ -31,8 +31,8 @@ Im vorliegenden Beispiel geht es um die folgenden Berechnungen:
 
 1. Berechnung der Gesamtzahl der täglich aufgenommenen Kalorien anhand obenstehender Tabelle (Summe des Produkts aus _Kalorien pro Portion_ und _Anzahl Portionen_).
 1. Berechnung des täglichen Kalorienbedarfs (Grundumsatz) anhand von Körpergewicht, Körpergrösse und Alter gemäss der _Harris-Benedict_-Formel:
-   - **Mann**: 66.47 + (13.7 - Körpergewicht in kg) + (5.003 - Körpergrösse in cm) - (6.75 \* Alter in Jahren)
-   - **Frau**: 655.1 + (9.563 - Körpergewicht in kg) + (1.85 - Körpergrose in cm) - (4.676 \* Alter in Jahren)
+   - **Mann**: 66.47 + (13.7 \* Körpergewicht in kg) + (5.003 \* Körpergrösse in cm) - (6.75 \* Alter in Jahren)
+   - **Frau**: 655.1 + (9.563 \* Körpergewicht in kg) + (1.85 \* Körpergrose in cm) - (4.676 \* Alter in Jahren)
 1. Berechnung der überschüssigen Kalorien pro Tag (Differenz aus _aufgenommenen Kalorien_ und _Grundumsatz_) und der Anzahl Tage, die man sich an die Tanzverbot-Diät halten muss, um auf ein gewünschtes Kampfgewicht zu kommen.
    - Für ein Kilo Fettzunahme sind 9000 überschüssig aufgenommene Kalorien notwendig.
 
