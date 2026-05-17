@@ -4,7 +4,7 @@ title = 'User Stories'
 weight = 8
 +++
 
-In der agilen Softwareentwicklung werden Anforderungen oftmals in sogenannten _User Stories_ festgehalten. Diese sind aus der Perspektive eines Anwenders gemäss folgender Form geschrieben:
+In der agilen Softwareentwicklung werden Anforderungen oftmals als _User Stories_ festgehalten. Diese sind aus der Perspektive eines Anwenders gemäss folgender Form geschrieben:
 
 > [**Titel**]: Ich als [Rolle] möchte [eine Funktionalität] damit [ein Nutzen entsteht].
 
@@ -20,8 +20,8 @@ Gute User Stories genügen den sogenannten _INVEST_-Kriterien (benannt anhand ih
 
 - **I**ndependent (unabhängig): Die Abhängigkeiten zwischen einzelnen User Stories sollten auf ein Minimum reduziert werden. Idealerweise ist eine User Story unabhängig von anderen User Stories. Unabhängige User Stories können in einer beliebigen Reihenfolge bzw. gemäss ihrer Priorität umgesetzt werden. Abhängigkeiten müssen dokumentiert werden, damit man die Stories nicht in der falschen Reihenfolge umsetzt.
 - **N**egotiable (verhandelbar): Die Stories sollten einen gewissen Verhandlungsspielraum zwischen Entwicklung und Business bieten, sodass beispielsweise eine etwas vereinfachte Variante von einer Funktionalität umgesetzt werden kann, wenn dadurch Entwicklungsaufwand eingespart wird.
-- **V**aluable (wertvoll): User Stories müssen einen klaren Nutzen für den Anwender des Systems schaffen. Aufgaben wie Refactoring, deren Ergebnis der Benutzer nicht direkt wahrnehmen kann, sind also keine User Stories. In der Regel betrifft eine User Story alle Schichten des Systems: von Frontend über Backend bis zur Datenbank.
-- **E**stimable (schätzbar): Die User Story muss genügend detailliert beschrieben sein, dass man ihren Aufwand ungefähr abschätzen kann.
+- **V**aluable (wertvoll): User Stories müssen einen klaren Nutzen für den Anwender des Systems schaffen. Aufgaben wie Refactoring, deren Ergebnis der Benutzer nicht direkt wahrnehmen kann, sind keine User Stories. In der Regel betrifft eine User Story alle Schichten des Systems: von Frontend über Backend bis zur Datenbank.
+- **E**stimable (schätzbar): Die User Story muss genügend detailliert beschrieben sein, sodass man ihren Aufwand ungefähr abschätzen kann.
 - **S**mall (klein): Eine User Story sollte so klein sein, dass sie innerhalb einer Iteration (eines Sprints) von einem oder zwei Enwicklern umgesetzt werden kann. Grössere Stories sollten in kleinere Stories heruntergebrochen oder vereinfacht werden.
 - **T**estable (testbar): Eine User Story sollte Umsetzungskriterien beschreiben, anhand welcher die Entwickler automatisierte bzw. die Qualitätssicherung manuelle Testfälle ableiten können.
 
@@ -49,7 +49,7 @@ Die Einschätzung der Story-Grössen erfolgt im Team. Dabei ist es oft nicht so 
 
 ### Planning Poker
 
-_Planning Poker_ bezeichnet eine Technik, womit sichergestellt werden kann, dass alle Teammitglieder ihre unverfälsche Einschätzung über die Storypunkte abgeben können. Hierbei erhalten alle Teammitglieder ein Deck an Karten mit den folgenden Bezeichnungen:
+_Planning Poker_ bezeichnet eine Technik, womit sichergestellt werden kann, dass alle Teammitglieder ihre unverfälsche Einschätzung über die Storypunkte abgeben können. Hierbei erhalten alle Teammitglieder einen Kartensatz mit den folgenden Bezeichnungen:
 
 - nummerierte Karten: 0, 1, 2, 3, 5 usw. (Anzahl Storypunkte)
 - :infinity: unendlich (die Story ist zu gross für eine Einschätzung)
@@ -92,9 +92,9 @@ Die User Stories werden in einem sogenannten _Backlog_ gesammelt. Dieses kann be
 
 Für jede Iteration (bei Scrum ein sogenannter _Sprint_) werden einige User Stories zur Umsetzung ausgewählt. Dies geschieht anhand der Grösse und Priorität der User Stories, die mithilfe der _Eisenhower-Matrix_ in vier Kategorien eingeteilt werden können:
 
-![Das Vier-Quadranten-Spiel (Eisenhower-Matrix)](/images/user-stories/vier-quadranten-spiel.png)
+![Das Vier-Quadranten-Spiel bzw. Planning Game (Eisenhower-Matrix)](/images/user-stories/vier-quadranten-spiel.png)
 
-Man bezeichnet dieses Vorgehen auch als das "Vier-Quadranten-Spiel".
+Man bezeichnet dieses Vorgehen auch als das "Vier-Quadranten-Spiel" bzw. als "Planning Game".
 
 Am Ende dieses "Spiels" verbleibt ein Sprint-Backlog, das dann beispielsweise so aussieht:
 
