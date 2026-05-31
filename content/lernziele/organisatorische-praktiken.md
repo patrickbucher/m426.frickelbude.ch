@@ -15,3 +15,18 @@ weight = 3
 ### Unterlagen
 
 - Text [User Stories](/texte/user-stories)
+
+## Scrum
+
+1. Du kannst die Rollen _Developer_, _Product Owner_ und _Scrum Master_ und ihre Verantwortlichkeiten erklären.
+1. Du kannst Zusammensetzung, Grösse und Eigenschaften eines Scrum-Teams wiedergeben und begründen.
+1. Du kannst begründen, warum nicht die gleiche Person als _Scrum Master_ und als _Product Owner_ tätig sein soll.
+1. Du kannst die Aufgaben eines Sprints den verantwortlichen Scrum-Rollen und Scrum-Events zuordnen.
+1. Du kannst die drei Hauptartefakte von Scrum mit Zweck und Zustandekommen benennen und erklären.
+1. Du kannst unterscheiden welche Aspekte der agilen Softwareentwicklung Scrum vorgibt und offen lässt.
+
+### Unterlagen
+
+- Skript _Scrum Guide (2020)_
+    - [Englisch](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf) (Original)
+    - [Deutsch](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-German-m%C3%A4nnlich-male-version.pdf) (Übersetzung)
