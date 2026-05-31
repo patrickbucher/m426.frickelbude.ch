@@ -17,7 +17,7 @@ Ihr könnt User Stories formulieren, ihnen Story-Punkte zuweisen und sie prioris
 - [5 min.] Administratives
 - [5 min.] Lernziele
 - [20 min.] Einführung (Folien)
-- [15 min.] Erteilung Auftrag
+- [15 min.] Erteilung des Arbeitsauftrags
 
 ### Lektion 2
 
