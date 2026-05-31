@@ -4,7 +4,7 @@ title = 'Block 13: User Stories'
 weight = 13
 +++
 
-Im dreizehtnen Block befassen wir uns mit _User Stories_: der grundlegenden Arbeitseinheit agiler Softwareprojekte. Wir schauen uns, an wie man User Stories formuliert, was dabei alles zu beachten ist, wie man im Team einen Konsens über die Story-Punkte findet und wie man User Stories priorisiert.
+Im dreizehnten Block befassen wir uns mit _User Stories_: der grundlegenden Arbeitseinheit agiler Softwareprojekte. Wir schauen uns, an wie man User Stories formuliert, was dabei alles zu beachten ist, wie man im Team einen Konsens über die Story-Punkte findet und wie man User Stories priorisiert.
 
 ## Ziel
 
