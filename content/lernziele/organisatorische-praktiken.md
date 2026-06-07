@@ -30,3 +30,16 @@ weight = 3
 - Skript _Scrum Guide (2020)_
     - [Englisch](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf) (Original)
     - [Deutsch](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-German-m%C3%A4nnlich-male-version.pdf) (Übersetzung)
+
+## Business- und teamorientierte Praktiken
+
+1. Du kannst den Zielkonflikt _gut/schnell/günstig_ erklären und drei Beispiele für Kompromisse benennen.
+1. Du kannst erklären, was _Velocity_ bedeutet, und warum diese steigen oder sinken kann.
+1. Du kannst ein _Burn Down Chart_ interpretieren.
+1. Du kannst den Zielkonflikt _genau/zutreffend_ einer Schätzung erklären.
+1. Du kannst eine _trivariate Schätzung_ erklären und ihre Vorteile gegenüber der Punktschätzung benennen.
+1. Du kannst Form, Frequenz, Inhalt und Teilnehmer eines _Standup Meetings_ erklären und begründen.
+
+### Unterlagen
+
+- Folien _Business- und teamorientierte Praktiken_
